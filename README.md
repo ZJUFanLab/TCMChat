@@ -155,17 +155,4 @@ deepspeed --hostfile="" src/fine-tune.py  \
 
 Please refer to the experimental section of the paper for instructions.
 
-## Citing 
 
-```
-@misc{tcmchat,
-      doi = {xxx},
-      url = {xxx},
-      author = {Yizheng Dai, Jinlu Zhang, Yulong Chen, Qian Chen, Jie Liao, Fei Chi, Xin Shao, Xiaohui Fan},
-      keywords = {TCM, Pre-training, Fine-tuning},
-      title = {TCMChat: Traditional Chinese Medicine Recommendation System based on Large Language Model},
-      publisher = {arXiv},
-      year = {2024},
-      copyright = {l}
-}
-```
