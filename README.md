@@ -46,7 +46,7 @@ python cli_infer.py \
 python gradio_demo.py
 ```
 
-We provide an online tool：[http://xxx](http://xxx)
+We provide an online tool：[https://xomics.com.cn/tcmchat](https://xomics.com.cn/tcmchat)
 
 
 ### Retrain
