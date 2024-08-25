@@ -154,4 +154,3 @@ deepspeed --hostfile="" src/fine-tune.py  \
 
 请参考论文实验部分说明。
 
-
