@@ -53,9 +53,9 @@ python gradio_demo.py
 ### 重新训练
 #### 数据集下载
 
-- [预训练数据](https://github.com/ZJUFanLab/TCMChat/data/pretrain) 
-- [微调数据](https://github.com/ZJUFanLab/TCMChat/data/sft)
-- [基准评测数据](https://github.com/ZJUFanLab/TCMChat/data/evaluate)
+- [预训练数据](https://github.com/ZJUFanLab/TCMChat/tree/master/data/pretrain) 
+- [微调数据](https://github.com/ZJUFanLab/TCMChat/tree/master/data/sft)
+- [基准评测数据](https://github.com/ZJUFanLab/TCMChat/tree/master/data/evaluate)
 
 > 注意：目前只提供样例数据，不久将来，我们将完全开源原始数据
 
