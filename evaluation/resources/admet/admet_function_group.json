@@ -1,0 +1,2502 @@
+[
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CCCCCCCCCCCCCCCCCCC=CC(O)C(O)C(O)CO",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC(=O)OC1C(=O)C2(C)C(O)CC3OCC3(OC(C)=O)C2C(OC(=O)c2ccccc2)C2(O)CC(OC(=O)C(O)C(O)c3ccccc3)C(C)=C1C2(C)C",
+    "output": "酮-CC(C)=O,酯-COC(C)=O,醚-COC,醇-O,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "你能告诉我这个分子官能团吗？",
+    "input": "CC1CCC(C(C)C2CCC3C4CC(=O)C5CC(OC6OC(CO)C(OC7OC(CO)C(O)C(O)C7O)C(O)C6O)CCC5(C)C4CCC23C)NC1",
+    "output": "酮-CC(C)=O,醚-COC,胺-N,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "COc1c(OC2OC(CO)C(O)C(O)C2O)cc(O)c2c(=O)cc(-c3ccccc3)oc12",
+    "output": "醚-COC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团？",
+    "input": "CC(=O)OCC12C(O)C(OC(C)=O)C3OC(=O)C(C)C(C)c4ccncc4C(=O)OCC4(C)OC1(C(OC(C)=O)C4C(OC(C)=O)C2OC(C)=O)C3(C)O",
+    "output": "酯-CC(=O)OC,醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "COC1(CCC(C)COC2OC(CO)C(O)C(O)C2O)OC2CC3C4CC=C5CC(OC6OC(CO)C(OC7OC(CO)C(O)C(O)C7O)C(O)C6O)CC(O)C5(C)C4CCC3(C)C2C1C",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "COc1cc(-c2c(O)c(C=O)cc3cc(OC)c(O)cc23)ccc1O",
+    "output": "醚-COC,醛-CC=O,醇-O"
+  },
+  {
+    "instruction": "我对这个分子的官能团很感兴趣，你能告诉我它是什么吗？",
+    "input": "O=c1cc(-c2ccc(O)cc2)oc2c(C3OC(COC4OC(O)C(O)C(O)C4O)C(O)C(O)C3O)c(O)cc(O)c12",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "C=CC(C)(O)CCC1(C)C2=C(C(OC(C)=O)C(OC(C)=O)C1C)C(C)(C)CCC2",
+    "output": "醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "CC(=O)Oc1c(C)c(OC2OC(CO)C(O)C(O)C2O)c(C)c2oc(C)cc(=O)c12",
+    "output": "醚-COC,醚-COC,醇-O,酯-COC(C)=O,醚-COC"
+  },
+  {
+    "instruction": "请给我提供这个分子的官能团值。",
+    "input": "CC(C)=CCc1c(O)cc(O)c2c(=O)c(-c3ccc4c(c3)C=CC(C)(C)O4)coc12",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团？",
+    "input": "COC1=C(OC)C(=O)C(CC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)C)=C(C)C1=O",
+    "output": "酮-CC(C)=O,醚-COC"
+  },
+  {
+    "instruction": "请提供该分子的官能团值。",
+    "input": "CC(=O)c1c(OC2OC(CO)C(O)C(O)C2O)ccc(OC2OC(CO)C(O)C(O)C2O)c1CCc1ccc(O)cc1",
+    "output": "酮-CC(C)=O,醚-COC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "你能告诉我这个分子的官能团吗？",
+    "input": "COc1ccc2c(c1)C(=O)c1c(NCCc3ccc(O)cc3)c(OC)c(OC)c3ccnc-2c13",
+    "output": "醚-COC,酮-CC(C)=O,胺-N,醇-O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团吗？",
+    "input": "CC(=O)OC1CC2C3(C)C=CC(=O)C(C)(C)C3CC(OC(C)=O)C2(C)C2=CCC(C3=CC(=O)OC3O)C21C",
+    "output": "酮-CC(C)=O,酯-CC(=O)OC,酯-COC(C)=O,醚-COC,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "C=C1C2=CCC(c3ccoc3)C2(C)C(O)C(OC(C)=O)C1C1(C)C=CC(=O)C(C)(C)C1CC(=O)OC",
+    "output": "酮-CC(C)=O,醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "O=C(O)c1cc(O)c(OC2OC(COS(=O)(=O)[O-])C(O)C(O)C2O)c(O)c1",
+    "output": "羧酸-O=CO,醚-COC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "COc1cc2c(OC3OCC(O)(CO)C3O)c3c(c(-c4ccc5c(c4)OCO5)c2cc1OC)C(=O)OC3",
+    "output": "醚-COC,酯-CC(=O)OC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "NC(N)=NCCCC1NCCc2c1[nH]c1ccccc21",
+    "output": "胺-N"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "CC(=O)OCC12C(OC(=O)c3ccccc3)C(OC(C)=O)CC(C)(O)C13OC(C)(C)C(C(OC(C)=O)C2OC(=O)c1ccccc1)C3OC(C)=O",
+    "output": "酯-CC(=O)OC,醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "我需要知道这个分子的官能团，你能提供吗？",
+    "input": "COC(=O)CC(CC(=O)OC)C(=O)OC",
+    "output": "醚-COC,酯-COC(C)=O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "CC(CCC(C)C1CCC2C3C(O)CC4CC(O)CCC4(C)C3CC(O)C12C)C(C)C(=O)O",
+    "output": "羧酸-O=CO,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CC(CCC1(O)OC2CC3C4CCC5CC(OC6OC(CO)C(O)C(O)C6OC6OC(C)C(O)C(O)C6O)C(O)CC5(C)C4CCC3(C)C2C1C)COC1OC(CO)C(O)C(O)C1O",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "请给我提供这个分子的官能团。",
+    "input": "C#CC1(O)CCC2C3CCc4cc(O)ccc4C3CCC21C.C#CC1(OC(C)=O)CCC2C3CCC4=CC(=NO)CCC4C3CCC21CC",
+    "output": "醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "你能告诉我这个分子的官能团吗？",
+    "input": "CCCc1cc(=O)oc2c3c(c4c(c12)OC(C)C(C)C4=O)OC(C)(C)C=C3",
+    "output": "酮-CC(C)=O,醚-COC"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "COc1cc(OC)c2ccc(=O)oc2c1C=CC(C)=O",
+    "output": "醚-COC,酮-CC(C)=O"
+  },
+  {
+    "instruction": "请提供该分子的官能团值。",
+    "input": "CC1=CCC2(C)CC=CC(C)(C)C23CC13",
+    "output": ""
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC1=CC(=O)CC(C)(C)C12CCC(C)O2",
+    "output": "酮-CC(C)=O,醚-COC"
+  },
+  {
+    "instruction": "你能告诉我这个分子的官能团值吗？",
+    "input": "CC=C(C)C(=O)OC1C(OC(C)=O)C2(CO)C(O)CC3(C)C(=CCC4C5(C)CCC(OC6OC(C(=O)O)C(O)C(OC7OCC(O)C(O)C7OC7OCC(O)C(O)C7O)C6OC6OC(CO)C(O)C(O)C6O)C(C)(C=O)C5CCC43C)C2CC1(C)C",
+    "output": "酯-CC(=O)OC,酯-COC(C)=O,醚-COC,醇-O,羧酸-O=CO,醛-CC=O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "CCCCCc1cc2c(c(O)c1C(=O)O)C1C=C(C)CCC1C(C)(C)O2",
+    "output": "羧酸-O=CO,醚-COC,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "COc1cc(CC2c3cc(OC)c4c(c3CCN2C)OCO4)c(Oc2cc3c(cc2OC)-c2c(OC)c(OC)c(OC)c4c2C(C3)N(C)CC4)cc1OC",
+    "output": "醚-COC,醚-COC,胺-N"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "[Tl]",
+    "output": ""
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "COc1cc2c(cc1O)C(Cc1cc(OC)c(OC)cc1Oc1cc3c(cc1OC)-c1c(OC)c(OC)c(OC)c4c1C(C3)N(C)CC4)N(C)CC2",
+    "output": "醚-COC,醚-COC,胺-N,醇-O"
+  },
+  {
+    "instruction": "请给我提供这个分子的官能团值。",
+    "input": "c1cncc(-c2ncc(-c3ccc4c(c3)OCO4)o2)c1",
+    "output": "醚-COC"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团吗？",
+    "input": "CCCc1ccc(O)c(-c2cc(CCC)ccc2O)c1",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "你能告诉我这个分子的官能团值吗？",
+    "input": "CC1OC(OC2C(OC3C(O)C(C(=O)O)OC(OC4CCC5(C)C(CCC6(C)C5CC=C5C7CC(C)(C)CC(O)C7(CO)C(O)CC56C)C4(C)C)C3OC3OC(CO)C(O)C(O)C3O)OC(CO)C(O)C2O)C(O)C(O)C1O",
+    "output": "羧酸-O=CO,醚-COC,醇-O"
+  },
+  {
+    "instruction": "请给我提供这个分子的官能团值。",
+    "input": "COc1cc2c(cc1OC)C1(O)C(=O)c3ccc4c(c3OC1CO2)C=CC(C)(C)O4",
+    "output": "酮-CC(C)=O,醚-COC,醇-O"
+  },
+  {
+    "instruction": "请给我这个分子的官能团。",
+    "input": "CCC(C)C(=O)OC(C)C1(O)CCC2(O)C3CCC4CC(OC5CC(O)C(OC6CC(OC)C(OC7CC(OC)C(O)C(C)O7)C(C)O6)C(C)O5)CCC4(C)C3CC(OC(C)=O)C12C",
+    "output": "醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团？",
+    "input": "CCC(C)C(=O)OC(C)C1(O)CCC2(O)C3CCC4CC(OC5CC(OC)C(OC6CC(OC)C(OC7OC(C)C(OC8OC(CO)C(O)C(O)C8O)C(OC)C7O)C(C)O6)C(C)O5)CCC4(C)C3CC(OC(C)=O)C12C",
+    "output": "醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "C=C1C(OC(C)=O)CCC2(C)CC(=O)C3=C(C)C(OC(C)=O)CC(CC12)C3(C)C",
+    "output": "酮-CC(C)=O,醚-COC,酯-COC(C)=O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC(=O)OC1CC2(C(C)(C)O)C(=C1C)C(OC(=O)c1ccccc1)C(OC(=O)c1ccccc1)C1(C)C(OC(C)=O)CC3OCC3(OC(C)=O)C1C2OC(=O)c1ccccc1",
+    "output": "酯-CC(=O)OC,醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC(=O)OC1C2=C(C)C(O)CC2(C(C)(C)O)C(OC(C)=O)C2C3(OC(C)=O)COC3CC(OC(C)=O)C2(C)C1OC(C)=O",
+    "output": "醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请给我这个分子的官能团。",
+    "input": "CCCCCCCCCCCCCOS(=O)OCCCC",
+    "output": ""
+  },
+  {
+    "instruction": "你能给我这个分子的官能团？",
+    "input": "Oc1ccc2ccccc2c1N=Nc1ccc(N=Nc2ccccc2)cc1",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "C=CC1C(OC2OC(CO)C(O)C(O)C2O)OC=C(C(=O)O)C1CC1NCCc2c1[nH]c1ccccc21",
+    "output": "羧酸-O=CO,醚-COC,胺-N,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "O=C1C=CCC(C=CCC(O)CC(O)CCc2ccccc2)O1",
+    "output": "醚-COC,醇-O,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "COc1ccc(-c2cc(=O)c3c(O)c(-c4c(-c5ccc(OC)cc5)oc5cc(OC)cc(O)c5c4=O)c(OC)cc3o2)cc1",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "你能告诉我这个分子官能团吗？",
+    "input": "O=c1cccc2n1CC1CCCN3CCCC2C13",
+    "output": "胺-N"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "O=C1C=CCC2C3CCCN4CCCC(CN12)C34",
+    "output": "胺-N,酰胺-CC(N)=O"
+  },
+  {
+    "instruction": "我对这个分子的官能团很感兴趣，你能告诉我它是什么吗？",
+    "input": "CC1=C2C(O)C3OC3(C)C2C2OC(=O)C(C)=C2CC1",
+    "output": "醚-COC,醚-C1CO1,醇-O,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "COc1cc(C2Oc3c(O)cc(C4CC(=O)c5c(O)cc(O)cc5O4)cc3C2CO)ccc1O",
+    "output": "酮-CC(C)=O,醚-COC,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "CC(C)=CCc1cc2c(cc1O)oc(=O)c1c3ccc(O)c(CC=C(C)C)c3oc21",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团吗？",
+    "input": "O=c1c2cc(O)ccc2oc2cc(O)c(C3OC(COC4OCC(O)(CO)C4O)C(O)C(O)C3O)c(O)c12",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "请给我这个分子的官能团。",
+    "input": "O=C(CCc1ccc(O)c(O)c1)CC(CCc1ccc(O)c(O)c1)S(=O)(=O)O",
+    "output": "酮-CC(C)=O,磺酸-O=S(=O)O,醇-O"
+  },
+  {
+    "instruction": "请给我这个分子的官能团。",
+    "input": "CC(C)=CCC(OC(=O)C=C(C)C)c1coc(-c2cc(O)ccc2O)c1",
+    "output": "醚-COC,醇-O,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "你能告诉我这个分子的官能团值吗？",
+    "input": "CC(C)=CCC(OC(=O)CC(C)C)c1coc(-c2cc(O)ccc2O)c1",
+    "output": "醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请给我这个分子的官能团。",
+    "input": "CC(C)=C1C=C2C(C)CCCC2(C)CC1",
+    "output": ""
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "COC1CCN2C3C=CC4=CC(=O)OC4(C3)C2C1",
+    "output": "醚-COC,胺-N,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "请给我提供这个分子的官能团。",
+    "input": "CC1OC(OC2CCC3(C=O)C(CCC4C3C(O)CC3(C)C(C5=CC(=O)OC5)CCC43O)C2)C(O)C(O)C1O",
+    "output": "醚-COC,醛-CC=O,醇-O,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "请提供该分子的官能团值。",
+    "input": "C=CCC1(C(C)CCC)C(=O)NC(=O)NC1=O",
+    "output": "胺-N,酰胺-CC(N)=O"
+  },
+  {
+    "instruction": "请提供该分子的官能团值。",
+    "input": "CC(=O)OC1C(O)C(C)OC(OC2C3C=COC(OC4OC(CO)C(O)C(O)C4O)C3C3(CO)OC23)C1OC(=O)C=Cc1ccccc1",
+    "output": "酯-CC(=O)OC,酯-COC(C)=O,醚-C1CO1,醚-COC,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC1CC2(CC(C)C3(CCC4(C)C5=C(CCC43C)C3(C)CCC(OC4OC(COC6OCC(O)C(O)C6OC6OC(CO)C(O)C(OC7OC(CO)C(O)C(O)C7O)C6OC6OC(C)C(O)C(O)C6O)C(O)C(O)C4O)C(C)(CO)C3CC5)O2)OC1=O",
+    "output": "醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CC1OC(OC2C(OC3CCC4(C)C(CCC5(C)C4CC=C4C6CC(C)(C)CCC6(C(=O)OC6OC(COC7OC(CO)C(O)C(O)C7O)C(O)C(O)C6O)CCC45C)C3(C)C)OCC(OC3OC(CO)C(O)C(O)C3O)C2O)C(O)C(OC2OCC(OC3OC(CO)C(O)C(O)C3O)C(O)C2O)C1O",
+    "output": "醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "C=C1CCC2C(CN3CCCC3C(=O)O)C(=O)OC2C2C(=C)CCC12",
+    "output": "酯-COC(C)=O,胺-N,醚-COC,醇-O,羧酸-O=CO"
+  },
+  {
+    "instruction": "我需要知道这个分子的官能团，你能提供吗？",
+    "input": "CC1(C)CCC2(C(=O)OC3OC(CO)C(O)C(O)C3O)CCC3(C)C(=CCC4C5(C)CCC(OC6OC(CO)C(O)C(O)C6OC6OC(CO)C(O)C(O)C6O)C(C)(C)C5CCC43C)C2C1",
+    "output": "醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团值。",
+    "input": "CC1OC(OC2C(CO)OC(OCC3OC(OC4CCC5(C)C(CCC6(C)C5C=CC57OCC8(CCC(C)(C)CC85)C(O)CC67C)C4(C)CO)C(O)C(O)C3O)C(O)C2O)C(O)C(O)C1O",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "你能告诉我这个分子官能团吗？",
+    "input": "CC1(C)CCC23COC4(C=CC5C6(C)CCC(O)C(C)(C)C6CCC5(C)C4(C)CC2O)C3C1",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团值。",
+    "input": "CC=CSCC([NH3+])C(=O)[O-]",
+    "output": ""
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "O=C(CI)OCCOC(=O)CI",
+    "output": "醚-COC,酯-COC(C)=O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CC(C)(O)C1Cc2cc3ccc(=O)oc3c(OC3OC(CO)C(O)C(O)C3O)c2O1",
+    "output": "醚-COC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "COc1ccc(C(=O)c2nccc3cc4c(cc23)OCO4)c(O)c1OC",
+    "output": "醚-COC,酮-CC(C)=O,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "Cc1cc(O)c2c(OC3OC(CO)C(O)C(O)C3O)ccc(O)c2c1",
+    "output": "醚-COC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团吗？",
+    "input": "C=C(C)C1CCC2=C(C1)C(C)C(O)C(O)C2",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团吗？",
+    "input": "O=C1CCC(=O)O1",
+    "output": "醚-COC,酯-COC(C)=O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CC1(C)OC23C(OC(=O)c4cccnc4)C1CC(OC(=O)c1ccccc1)C2(C)C(OC(=O)c1ccccc1)CCC3(C)O",
+    "output": "酯-CC(=O)OC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "COc1cc(C=CC(=O)OCC(O)COC2OC(CO)C(O)C(O)C2O)ccc1O",
+    "output": "醚-COC,醚-COC,醇-O,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "我对这个分子的官能团很感兴趣，你能告诉我它是多少吗？",
+    "input": "CC(=CC(=O)O)c1c(O)c(C2OC(CO)C(O)C(O)C2O)c2c(c1O)C1OC(CO)C(O)C(O)C1O2",
+    "output": "羧酸-O=CO,醚-COC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "你能告诉我这个分子官能团吗？",
+    "input": "C=C1C2CC(=O)C3C4(C)CCC(O)C(C)(C)C4C(OC(C)=O)C(OC(C)=O)C3(C2)C1OC(C)=O",
+    "output": "酮-CC(C)=O,醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "C=C1C2CCC(=O)C3(C)CCC(OC(C)=O)C(C)(C)C3CC=C(C2)C1O",
+    "output": "酮-CC(C)=O,醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "你能告诉我这个分子的官能团值吗？",
+    "input": "CC1CC(O)C(C(C)C2CCC3=C(CC4C3=CC(=O)C3CC(O)CCC34C)C2C)N(C)C1",
+    "output": "酮-CC(C)=O,胺-N,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "O=C(OCC(O)C(O)C1OC(=O)c2cc(O)c(O)c(O)c2-c2c(O)c(O)c(O)c3c2C(=O)OC1C3O)c1cc(O)c(O)c(O)c1",
+    "output": "酯-CC(=O)OC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "请给我这个分子的官能团。",
+    "input": "CC(C)=C1CCC(C)CC1=O",
+    "output": "酮-CC(C)=O"
+  },
+  {
+    "instruction": "我对这个分子的官能团很感兴趣，你能告诉我它是什么吗？",
+    "input": "Cc1ccc(C(=O)Cl)cc1",
+    "output": ""
+  },
+  {
+    "instruction": "请给我提供这个分子的官能团值。",
+    "input": "COc1c(N)c2c3c(cc4ccccc4c3c1OC)N(C)C(=O)C2=O",
+    "output": "酮-CC(C)=O,醚-COC,酰胺-CC(N)=O,胺-N"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "O=C(O)c1c(O)c(O)c2c(c1O)C(=O)c1ccccc1C2=O",
+    "output": "羧酸-O=CO,酮-CC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "COC(=O)C1=CCC23CCC(C(C)(C=CC=C(C)C(=O)[O-])OC2=O)C3(O)CC1",
+    "output": "醚-COC,酯-COC(C)=O,醇-O,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "请给我提供这个分子的官能团。",
+    "input": "Cc1cc(=O)c2c(O)c3c(O)cc(O)c4c5c(O)cc(O)c6c(O)c7c(=O)cc(CO)cc7c(c65)c(c2c1)c34",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团吗？",
+    "input": "C=C1C(O)CC2C(C(=O)OCC=C(C)CCC=C(C)COC(=O)C3=COC(OC4OC(CO)C(O)C(O)C4O)C4C3CCC4(C)O)=COC(OC3OC(CO)C(O)C(O)C3O)C12",
+    "output": "醚-COC,醇-O,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "你能告诉我这个分子官能团吗？",
+    "input": "COc1ccc2c(c1)OC(C)(C)C=C2",
+    "output": "醚-COC"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "COc1cc2c(cc1O)c(=O)n1ccc3cccc2c31",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团吗？",
+    "input": "CC(C)=CC(=O)OCC(C)C1Cc2cc3ccc(=O)oc3cc2O1",
+    "output": "醚-COC,醚-COC,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "C=CC(O)C#CC#CC(O)C1OC1CCCCCCC",
+    "output": "醚-C1CO1,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "COc1cc2c(=O)c3c(O)cc(O)cc3oc2cc1OC1OC(CO)C(O)C(O)C1OC1OC(C)C(O)C(O)C1O",
+    "output": "醚-COC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "我需要知道这个分子的官能团，你能提供吗？",
+    "input": "CC(C)C1C=CC(CO)CC1",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团？",
+    "input": "COc1cc(CC=C(C)C)c2c(=O)c3c(O)cc(OC)c(CC=C(C)C)c3oc2c1O",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "Cc1cc(OC2OC(CO)C(O)C(O)C2O)c2c(O)cccc2c1O",
+    "output": "醚-COC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "COc1c(OC)c(O)c2c3c(cc4ccccc42)NC(=O)c13",
+    "output": "醚-COC,酰胺-CC(N)=O,胺-N,醇-O"
+  },
+  {
+    "instruction": "请给我提供这个分子的官能团值。",
+    "input": "C=CCC1=CC2=C(OC)C(C1=O)C2(C)C(O)c1ccc2c(c1)OCO2",
+    "output": "醚-COC,酮-CC(C)=O,醚-COC,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团值。",
+    "input": "COC1=CC(C)C2CC3OC(O)CC4C(C)C5OCOC5C(C2(C)C1=O)C34C",
+    "output": "酮-CC(C)=O,醚-COC,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "OCC1OC(Oc2ccc(C=Cc3cc(O)cc(O)c3)cc2O)C(O)C(O)C1O",
+    "output": "醚-COC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团值。",
+    "input": "CCCCCCCCCCCCCCCC(=O)OCC=C(C)CCCC(C)CCCC(C)CCCC(C)C",
+    "output": "醚-COC,酯-COC(C)=O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CCCC1(c2cccc(O)c2)CCN(CCc2ccc(O)cc2)C1",
+    "output": "胺-N,醇-O"
+  },
+  {
+    "instruction": "我对这个分子的官能团很感兴趣，你能告诉我它是什么吗？",
+    "input": "COc1cc2c(cc1OC1OCC3C(c4cc5c(cc4OC)OCO5)OCC13OC(C)=O)OCO2",
+    "output": "醚-COC,醚-COC,酯-COC(C)=O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "C=C(CCC(C)C1CCC2(C)C3CCC4C(C)(C)C(OC(=O)C=Cc5ccc(O)cc5)CCC45CC35CCC12C)C(C)C",
+    "output": "醚-COC,醇-O,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "CC(=O)COc1ccccc1",
+    "output": "醚-COC,酮-CC(C)=O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC(C)(O)CCc1c(OC2OC(CO)C(O)C(O)C2O)cc2oc(-c3ccc(O)cc3)c(O)c(=O)c2c1O",
+    "output": "醚-COC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC1CN=C(C(=O)C(C)C2CCC3C4CC(=O)C5CC(O)CCC5(C)C4CCC23C)C1",
+    "output": "酮-CC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "COc1cc(O)c2c(c1)OC(c1ccc(OC)c(OC3OC(CO)C(O)C(O)C3O)c1)CC2=O",
+    "output": "酮-CC(C)=O,醚-COC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "请给我提供这个分子的官能团值。",
+    "input": "Cc1cncc(C(O)C(O)C(O)CO)n1",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "COc1ccc(C(=O)OCC2OC(Oc3ccc(CC(CO)C(CO)Cc4ccc(O)c(OC)c4)cc3OC)C(O)C(O)C2O)cc1",
+    "output": "醚-COC,酯-CC(=O)OC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CC1CCC2(O)C(C)CCC3C(C12)C3(C)C",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "CCC(O)C1CC=CC2CC(=O)NCCCCNCCCN21",
+    "output": "胺-N,酰胺-CC(N)=O,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "C=C1C(OC)OC2(OC3OC(CO)C(O)C(O)C3O)CC1C(=O)C=C2C",
+    "output": "酮-CC(C)=O,醚-COC,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CCOC(=O)C(=O)OCC",
+    "output": "醚-COC,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC(C)=CCc1c(O)ccc2ccc(=O)oc12",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "C=CC1(C)CC(=O)C2C3(C)C=C(OC(C)=O)C(=O)C(C)(C)C3CC(O)C2(O)C1=O",
+    "output": "酮-CC(C)=O,醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CC1=C2C(CC1)C1(C)CCC(C(C)C)(O1)C2O",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团吗？",
+    "input": "C=C(C)C1Cc2c(OC)c3cc(OC)cc(OC)c3[n+](C)c2O1",
+    "output": "醚-COC"
+  },
+  {
+    "instruction": "我需要知道这个分子的官能团，你能提供吗？",
+    "input": "C=C1C(=O)C23OC2C1CCC(=O)C1(C)CCC(OC(C)=O)C(C)(C)C1CC3OC",
+    "output": "酮-CC(C)=O,醚-COC,酯-COC(C)=O,醚-C1CO1"
+  },
+  {
+    "instruction": "你能告诉我这个分子的官能团吗？",
+    "input": "COc1cc(CC2(O)COC(c3ccc(OC4OC(CO)C(O)C(O)C4O)c(OC)c3)C2CO)ccc1O",
+    "output": "醚-COC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "CC(C)C1=CC2(CC1=O)C(=O)CCC1C(C)(C)CCCC12C",
+    "output": "酮-CC(C)=O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CCCCCCCCCCC",
+    "output": ""
+  },
+  {
+    "instruction": "请给我这个分子的官能团。",
+    "input": "C1=CN(c2ccccc2)Cc2ccccc21",
+    "output": "胺-N"
+  },
+  {
+    "instruction": "请给我这个分子的官能团。",
+    "input": "CC1=C2C(=O)C=C(C(=O)O)C2C2OC(=O)C(C)C2CC1",
+    "output": "酮-CC(C)=O,酯-COC(C)=O,醚-COC,醇-O,羧酸-O=CO"
+  },
+  {
+    "instruction": "请给我提供这个分子的官能团。",
+    "input": "CC(C)=CCCC(C)(O)C1CCC2(C)C1C(O)CC1C3(C)CCC(O)C(C)(C)C3C(OC3OC(CO)C(O)C(O)C3OC3OCC(O)C(O)C3O)CC12C",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CC(=O)OC1C2C(=O)c3ccoc3CC2C2(C)C(=O)CCC(C)(C)C2(O)C1OC(C)=O",
+    "output": "酮-CC(C)=O,酮-CC(C)=O,酯-COC(C)=O,醚-COC,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CC(C=CC=C(C)C=CC(=O)O)=CC=CC=C(C)C=CC=C(C)C=CC(=O)O",
+    "output": "羧酸-O=CO,醇-O"
+  },
+  {
+    "instruction": "请给我提供这个分子的官能团。",
+    "input": "CCCCCCCCCCCCCCCCCC",
+    "output": ""
+  },
+  {
+    "instruction": "请提供该分子的官能团值。",
+    "input": "C=C1C(=O)OC2C=C(C)C(O)CC=C(C)CC(OC(=O)C(C)=CC)C12",
+    "output": "醚-COC,醇-O,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "C#CC1(O)C(O)CC2C3CCc4cc(OC5CCCC5)ccc4C3CCC21C",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "我对这个分子的官能团很感兴趣，你能告诉我它是什么吗？",
+    "input": "CC1(C)C=Cc2c(c(O)cc3c(=O)c4c(O)cccc4oc23)O1",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "你能告诉我这个分子的官能团吗？",
+    "input": "O=c1c(C2OCCC2O)coc2cc(O)cc(O)c12",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "COC1=CC(C)C2CC3OC(=O)CC4(O)C(C)C(O)C(O)C(C2(C)C1=O)C34C",
+    "output": "酮-CC(C)=O,醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请给我提供这个分子的官能团。",
+    "input": "COC1=CC(C)C2CC3OC(=O)CC4(O)C(C)(O)C(OC)C(O)C(C2(C)C1=O)C34C",
+    "output": "酮-CC(C)=O,醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团吗？",
+    "input": "COC1=CC(C)C2CC3OC(=O)CC4C(C)C(OC)C(O)C(C2(C)C1=O)C34C",
+    "output": "酮-CC(C)=O,醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团？",
+    "input": "CN(C=O)CCc1cc2c(cc1-c1cc3ccc4c(c3cn1)OCO4)OCO2",
+    "output": "醚-COC,胺-N"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "COC1C(O)C(C)OC(OC2CCC3(C)C(CCC4C3CCC3(C)C(C5=CC(=O)OC5)C(OC(C)=O)CC43O)C2)C1O",
+    "output": "醚-COC,酯-COC(C)=O,醇-O,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "Oc1ccc(C2Oc3cc(O)c(C4c5cc(C6C(c7ccc(O)cc7)OC(c7ccc(O)cc7)C6c6cc(O)cc(O)c6)c(O)cc5OC4c4ccc(O)cc4)cc3C2c2cc(O)cc(O)c2)cc1",
+    "output": "醚-COC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "Cc1cc(O)c2c(c1)C(=O)C=C(c1c(C)cc(O)c3c1C(=O)C=CC3=O)C2=O",
+    "output": "酮-CC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请给我提供这个分子的官能团。",
+    "input": "O=C(O)c1cc(C=CN2c3cc(O)c(OC4OC(CO)C(O)C(O)C4O)cc3CC2C(=O)O)cc(C(=O)O)n1",
+    "output": "醚-COC,胺-N,醚-COC,醇-O,羧酸-O=CO"
+  },
+  {
+    "instruction": "你能告诉我这个分子的官能团吗？",
+    "input": "CNC(Cc1c[nH]c2ccccc12)C(=O)OC",
+    "output": "胺-N,醚-COC,酯-COC(C)=O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC1=C2CC(C(C)C(=O)O)C(C(=O)OC3OC(CO)C(O)C(O)C3O)C=C2CCC1",
+    "output": "羧酸-O=CO,醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC(CCC(=O)NCC(=O)O)C1CCC2C3CCC4CC(O)CCC4(C)C3CC(O)C12C",
+    "output": "羧酸-O=CO,胺-N,酰胺-CC(N)=O,醇-O"
+  },
+  {
+    "instruction": "请给我提供这个分子的官能团值。",
+    "input": "CC(=CCCC(C)=CCCC(C)=CCCC1C(C)(O)CCC2C(C)(C)C(=O)CCC12C)CO",
+    "output": "酮-CC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CCCCCCCCCCCCCC=O",
+    "output": "醛-CC=O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "COc1cc(O)c(C(=O)CCc2ccccc2)c(O)c1C",
+    "output": "酮-CC(C)=O,醚-COC,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC(=CCCC(C)=CCOC1OC(CO)C(O)C(OC2OC(C)C(O)C(O)C2O)C1OC1OC(C)C(O)C(O)C1O)CCC=C(C)COC1OC(CO)C(O)C(O)C1OC1OC(C)C(O)C(O)C1O",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "O=C(OC(C(=O)O)C(O)C(O)C(O)C(=O)O)c1cc(O)c(O)c(O)c1",
+    "output": "羧酸-O=CO,酯-CC(=O)OC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "请给我提供这个分子的官能团值。",
+    "input": "CC1(O)CCC2(C(=O)O)CCC3(C)C(=CCC4C5(C)CCC(OC6OC(CO)C(O)C(OC7OCC(O)C(O)C7O)C6OC6OCC(O)C(O)C6O)C(C)(C)C5CCC43C)C2C1",
+    "output": "羧酸-O=CO,醚-COC,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "COc1cc(OC)c(C2C(C)C(C)C2c2cc(OC)c3c(c2OC)OCO3)cc1OC",
+    "output": "醚-COC"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "COc1ccc(C=CC(=O)OC2C3C=COC(OC4OC(CO)C(O)C(O)C4O)C3C3(CO)OC23)cc1O",
+    "output": "酯-CC(=O)OC,醚-COC,醚-C1CO1,醚-COC,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "COC(=O)C=Cc1ccc(O)cc1",
+    "output": "醚-COC,醇-O,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "COC(=O)c1ccc(OC)cc1",
+    "output": "醚-COC,醚-COC,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CCCCCCCCCCCCCC(=O)OC",
+    "output": "醚-COC,酯-COC(C)=O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "COC(=O)CCC(C)C1CC(=O)C2(C)C3=C(C(=O)CC12C)C1(C)CCC(=O)C(C)(C)C1CC3O",
+    "output": "酮-CC(C)=O,醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "COC1(CO)OC(CO)C(O)C1O",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "你能告诉我这个分子的官能团值吗？",
+    "input": "COC(=O)C1(C)CCC2(C)CCC3(C)C(=CC(=O)C4C5(C)CCC(O)C(C)(CO)C5CCC43C)C2C1",
+    "output": "酮-CC(C)=O,醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团吗？",
+    "input": "CCCCC(C)CC(C)CC(C)C(=O)OC",
+    "output": "醚-COC,酯-COC(C)=O"
+  },
+  {
+    "instruction": "请给我提供这个分子的官能团。",
+    "input": "COC(=O)C1(C)CCC2(C)CCC3(C)C(=CC(=O)C4C5(C)CCC(O)C(C)(C)C5CCC43C)C2(O)C1",
+    "output": "酮-CC(C)=O,醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "COc1cc(C(=O)O)c(C(=O)O)cc1OC",
+    "output": "羧酸-O=CO,醚-COC,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "COc1ccc2c(c1OC)C(=O)OC2",
+    "output": "醚-COC,醚-COC,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "我对这个分子的官能团很感兴趣，你能告诉我它是什么吗？",
+    "input": "Oc1ccc(C2Oc3ccc(C=Cc4cc(O)cc(O)c4)cc3C2c2cc(O)cc(O)c2)cc1",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团值。",
+    "input": "COc1cc(C2Oc3c(OC)cc(CCCO)cc3C2COC2OC(C)C(O)C(O)C2O)ccc1O",
+    "output": "醚-COC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CC1=CC(=O)c2c(O)ccc(-c3ccc(O)c4c3C(=O)C(C)=CC4=O)c2C1=O",
+    "output": "酮-CC(C)=O,酮-CC(C)=O,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "C=C1C2CCC3C45CCCC(C)(C)C4C(OC(C)=O)C(O)(OC5)C3(C2)C1O",
+    "output": "醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CC(C1CCC2C3CCC4CC([N+](C)(C)C)CCC4(C)C3CCC21C)[N+](C)(C)C.[I-].[I-]",
+    "output": ""
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "C=CCc1ccc(Oc2cc(C(O)C(O)Cc3c(CC=C)cc(O)c(O)c3Oc3ccc(CC=C)cc3)cc(O)c2O)cc1",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "你能告诉我这个分子官能团吗？",
+    "input": "[Mg]",
+    "output": ""
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "COc1cccc(OC(C)=O)c1",
+    "output": "醚-COC,酯-COC(C)=O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "COc1cc(CCC(=O)OC2C(OC(C)=O)C3CC(C)CC45C3CCCN4CCCC25)ccc1O",
+    "output": "醚-COC,酯-COC(C)=O,胺-N,醚-COC,醇-O"
+  },
+  {
+    "instruction": "你能告诉我这个分子的官能团吗？",
+    "input": "CC1=CC2C(O)C(O)C3CCCN4CCCC2C34C1",
+    "output": "胺-N,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC(=O)OC1C(OC2OC(CO)C(O)C(O)C2O)C(C)CNC12OC1CC3C4CCC5CC(OC6OC(CO)C(OC7OC(CO)C(O)C(OC8OCC(O)C(O)C8O)C7OC7OC(CO)C(O)C(O)C7O)C(O)C6O)CCC5(C)C4CCC3(C)C1C2C",
+    "output": "胺-N,醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "CC12CCC3C(C)(CO)C(O)CCC3(C)C1CCC1C(=CCC3C(C)(C)C(O)C(O)CC13C)C2",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团吗？",
+    "input": "O=c1cc(-c2ccc(OC3OC(CO)C(O)C(O)C3O)c(O)c2)oc2cc(O)cc(O)c12",
+    "output": "醚-COC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "C=C1C(=O)C23CC(=O)C4C(C)(C)C(OC(C)=O)C(OC(C)=O)C(O)C4(C)C2C(O)CC1C3",
+    "output": "酮-CC(C)=O,醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团值。",
+    "input": "COc1ccc2c(=O)cc(-c3ccc4c(c3)OCO4)n(C)c2c1",
+    "output": "醚-COC"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "COc1cc2c(cc1O)C1(Cc3ccc4c(c3C1O)OCO4)N(C)CC2",
+    "output": "醚-COC,胺-N,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC(CCC(O)C(C)(C)O)C1CCC2(C)C3=C(CCC12C)C1(C)CCC(=O)C(C)(C)C1CC3=O",
+    "output": "酮-CC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团值。",
+    "input": "O=C(O)C(O)Cc1ccccc1",
+    "output": "羧酸-O=CO,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "C=CC1(C)CCC(C(C)CO)O1",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CCN1CC2(COC)CCC(O)C34C5C(O)C6C(OC)CC(O)(C5C6O)C(O)(C(OC)C23)C14",
+    "output": "醚-COC,胺-N,醇-O"
+  },
+  {
+    "instruction": "我对这个分子的官能团很感兴趣，你能告诉我它是什么吗？",
+    "input": "COc1ccc2c(c1)OCc1c-2oc2cc(O)ccc12",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC1=C(CCC2=CC(=O)OC2)C2(C)CCCC(C)(C)C2CC1=O",
+    "output": "酮-CC(C)=O,醚-COC,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "我对这个分子的官能团很感兴趣，你能告诉我它是什么吗？",
+    "input": "CCCCCCCCCCCCBr",
+    "output": ""
+  },
+  {
+    "instruction": "你能告诉我这个分子的官能团值吗？",
+    "input": "COc1cc2c(cc1OC)-c1c(O)c(O)cc3c1C(C2)N(C)CC3",
+    "output": "醚-COC,胺-N,醇-O"
+  },
+  {
+    "instruction": "我对这个分子的官能团很感兴趣，你能告诉我它是多少吗？",
+    "input": "COc1cc(C(=O)C2=Cc3cc(O)c(OC)cc3CC2CO)ccc1O",
+    "output": "酮-CC(C)=O,醚-COC,醇-O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团吗？",
+    "input": "CC#CC#COC1=CC2(CCC(OC(=O)CC(C)C)CO2)C2OC12",
+    "output": "醚-COC,酯-COC(C)=O,醚-C1CO1"
+  },
+  {
+    "instruction": "请提供该分子的官能团值。",
+    "input": "CC1(C)CC2C3=CCC4C5(C)CCC(OC6OC(C(=O)O)C(O)C(O)C6OC6OC(C(=O)O)C(O)C(O)C6O)C(C)(CO)C5CCC4(C)C3(C)CCC2(C)C(OC2OCC(O)C(O)C2O)C1O",
+    "output": "羧酸-O=CO,醚-COC,醇-O"
+  },
+  {
+    "instruction": "请给我提供这个分子的官能团。",
+    "input": "CC1OC(OC2C(OC3CCC4(C)C(CCC5(C)C4C=CC4=C6C7(CCC(C)(OC7=O)C6(C)O)CCC45C)C3(C)C)OCC(O)C2OC2OC(CO)C(O)C(O)C2OC2OC(CO)C(O)C(O)C2O)C(O)C(O)C1O",
+    "output": "醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC(C)(O)CCC(=O)C(C)(O)C1C(O)CC2(C)C3C(O)C=C4C(C=C(OC5OC(CO)C(O)C(O)C5O)C(=O)C4(C)C)C3(C)C(=O)CC12C",
+    "output": "酮-CC(C)=O,醚-COC,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "CC(C)=CCc1cc(C2Oc3c(ccc4c3C=CC(C)(C)O4)C(=O)C2O)ccc1O",
+    "output": "酮-CC(C)=O,醚-COC,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CC=C(C)C(=O)OC1C2=CC(=O)C(OC)=C(OC)C23COc2c4c(cc(c23)C(OC(C)=O)C(C)C1(C)O)OCO4",
+    "output": "酮-CC(C)=O,酯-CC(=O)OC,醚-COC,酯-COC(C)=O,醚-COC,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "C=CC(C)(CCC=C(C)C(=O)OC1C(C)OC(OC(C)(C=C)CCC=C(CO)C(=O)OC2CC3(C(=O)OC4OC(CO)C(O)C(O)C4OC4OC(C)C(OC5OC(CO)C(O)C5O)C(OC5OC(CO)C(O)C(O)C5O)C4O)C(O)CC4(C)C(=CCC5C6(C)CCC(OC7OC(COC8OCC(O)C(O)C8OC8OCC(O)C(O)C8O)C(O)C(O)C7NC(C)=O)C(C)(C)C6CCC54C)C3CC2(C)C)C(O)C1O)OC1OC(C)C(O)C(O)C1O",
+    "output": "酯-CC(=O)OC,胺-N,酯-COC(C)=O,醚-COC,酰胺-CC(N)=O,醇-O"
+  },
+  {
+    "instruction": "你能告诉我这个分子官能团吗？",
+    "input": "CC1=C(COC2OC(CO)C(O)C(O)C2O)C(C)(C)CCC1=O",
+    "output": "酮-CC(C)=O,醚-COC,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "C=CC(O)C#CC#CC(C=CCCCCCCC)OC(C)(C)C(O)COc1c2occc2c(OC)c2ccc(=O)oc12",
+    "output": "醚-COC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC1OC(OC2C(O)C(OCCc3ccc(O)c(O)c3)OC(CO)C2OC(=O)C=Cc2ccc(O)cc2)C(O)C(O)C1O",
+    "output": "醚-COC,醇-O,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团？",
+    "input": "COc1cc(-c2oc3cc(O)cc(OC4OC(CO)C(O)C(O)C4O)c3c(=O)c2O)ccc1O",
+    "output": "醚-COC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "COc1cc(-c2oc3cc(O)cc(O)c3c(=O)c2OC2OC(COC(=O)C=Cc3ccc(O)cc3)C(O)C(O)C2O)ccc1O",
+    "output": "醚-COC,醚-COC,醇-O,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "请提供该分子的官能团值。",
+    "input": "CC=C1C(=O)OC23C=CC4C(C(=O)OC)=COC(OC12)C43",
+    "output": "醚-COC,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "请给我提供这个分子的官能团。",
+    "input": "O=C1CC(c2ccc(O)c(O)c2)Oc2c1ccc(OC1OC(CO)C(O)C(O)C1O)c2O",
+    "output": "酮-CC(C)=O,醚-COC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "C=C1OC(=O)C(=CCCCCCC=CCCCCCCCC)C1O",
+    "output": "醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "你能告诉我这个分子的官能团吗？",
+    "input": "COc1ccc(CC=Cc2ccccc2)c(OC)c1O",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "CC(=O)CCc1ccc(OC2OC(CO)C(O)C(O)C2OC(=O)c2cc(O)c(O)c(O)c2)cc1",
+    "output": "酮-CC(C)=O,醚-COC,醚-COC,醇-O,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "你能告诉我这个分子的官能团值吗？",
+    "input": "O=C1c2ccccc2OCC1c1ccccc1",
+    "output": "酮-CC(C)=O,醚-COC"
+  },
+  {
+    "instruction": "请提供该分子的官能团值。",
+    "input": "CC(C)C(C)C=CC(C)C1CCC2C3C=CC4=CC(=O)CCC4(C)C3CCC12C",
+    "output": "酮-CC(C)=O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CC(C)(O)C=CC(=O)C(C)(O)C1C(O)CC2(C)C3CC=C4C(CC(=O)C(O)C4(C)C)C3(C)C(=O)CC12C",
+    "output": "酮-CC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团值。",
+    "input": "CCCCCCCCCCCCCCCCCCCCCC1=C(O)C(=O)C=C(OC)C1=O",
+    "output": "酮-CC(C)=O,醚-COC,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CC(C)C1OC(=O)C=C2C1=CC1OC(=O)C3(C)C(O)C4OC4C2(C)C13",
+    "output": "酯-CC(=O)OC,酯-COC(C)=O,醚-C1CO1,醚-COC,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "CC(C)C1CCC(C)(C2C(O)CC3(C)C4CC(=O)C5C(C)(C)C(OC6OC(CO)C(O)C(O)C6O)CCC56CC46CCC23C)O1",
+    "output": "酮-CC(C)=O,醚-COC,醇-O"
+  },
+  {
+    "instruction": "你能告诉我这个分子官能团吗？",
+    "input": "COc1cc(C=CC(=O)c2ccc(O)cc2O)ccc1O",
+    "output": "酮-CC(C)=O,醚-COC,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "CCCCCCS",
+    "output": ""
+  },
+  {
+    "instruction": "我需要知道这个分子的官能团，你能提供吗？",
+    "input": "CCCCCCCCCCCCCCCC(=O)OC",
+    "output": "醚-COC,酯-COC(C)=O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CCCCCCCCCCCCCCCC=O",
+    "output": "醛-CC=O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "O=C(OC1COC(=O)c2cc(Oc3c(C(=O)OC4OC5COC(=O)c6cc(O)c(O)c(O)c6-c6c(cc(O)c(O)c6O)C(=O)OC5C(OC(=O)c5cc(O)c(O)c(O)c5)C4OC(=O)c4cc(O)c(O)c(O)c4)cc(O)c(O)c3O)c(O)c(O)c2-c2c(cc(O)c(O)c2O)C(=O)OC1C1OC(=O)c2cc(O)c(O)c(O)c2-c2c(O)c(O)c(O)c3c2C(=O)OC1C3O)c1cc(O)c(O)c(O)c1",
+    "output": "醚-COC,酯-CC(=O)OC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "CCCCCCCCCCCCCCCCC(=O)OC(CC(=O)[O-])C[N+](C)(C)C",
+    "output": "醚-COC,酯-COC(C)=O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团？",
+    "input": "CC(C)=CCCC(C)(OC1OC(COC2OC(C)C(O)C(O)C2O)C(O)C(O)C1O)C1CCC2(C)C1CCC1C3(C)CC(O)C(OC4OC(CO)C(O)C(O)C4O)C(C)(C)C3CCC12C",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CC=C(C)C(=O)OC1c2cc3c(c(OC)c2-c2c(cc(OC)c(OC)c2OC)CC(C)C1(C)O)OCO3",
+    "output": "醚-COC,醚-COC,醇-O,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "请给我提供这个分子的官能团。",
+    "input": "CC(C)=CCc1cc(-c2coc3cc(O)cc(O)c3c2=O)cc(O)c1O",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "你能告诉我这个分子官能团吗？",
+    "input": "CC(C)=CCc1cc2c(cc1O)OCC1(O)c3ccc(O)cc3OC21",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "O=C(O)c1cc([O-])c2c(c1)C(=O)c1c(C3OC(CO)C(O)C(O)C3O)ccc([O-])c1C2=O.[Ca+2]",
+    "output": "羧酸-O=CO,酮-CC(C)=O,醚-COC,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "COc1cc(CC(CO)C(CO)Cc2cc(OC)c(OC3OC(COC(=O)c4ccc(O)c(OC)c4)C(O)C(O)C3O)c(OC)c2)ccc1O",
+    "output": "醚-COC,酯-CC(=O)OC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "CC1C(=O)OC2C1C13OC4OC(=O)C(O)C45C(C(C)(C)C)C(O)C(OC1=O)C35C2O",
+    "output": "醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CCC=CCC=CCC=CCCCCCCCC(=O)OC1(O)C(O)C(COC2OC(CO)C(O)C(O)C2O)OC(OCCC)C1(O)O",
+    "output": "醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CC(C)=CCc1cc2c(=O)c3c(O)c4c(cc3oc2c(O)c1O)OC(C)C4(C)C",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "你能告诉我这个分子的官能团吗？",
+    "input": "CC(=O)OCC(C)C1=C(O)C2=C(C(=O)C1=O)C1(C)CCCC(C)(C)C1CC2OC(C)=O",
+    "output": "酮-CC(C)=O,醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "C=C(C)C12OC3(c4ccccc4)OC1C1C4OC4(COC(=O)CCCCCCCCCCCCCCC)C(O)C4(O)C(=O)C(C)=CC4C1(O3)C(C)C2OC(=O)c1ccccc1",
+    "output": "酮-CC(C)=O,酯-COC(C)=O,醚-C1CO1,醚-COC,醇-O,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "请给我提供这个分子的官能团。",
+    "input": "C=C1C(O)CC2C(C(=O)OC)=COC(OC3OC(CO)C(O)C(O)C3O)C12",
+    "output": "醚-COC,醇-O,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "CC(C)=CCCC(C)=CCc1c(O)c(O)c2oc3cc(O)cc(O)c3c(=O)c2c1CC=C(C)C",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "我对这个分子的官能团很感兴趣，你能告诉我它是多少吗？",
+    "input": "CC(=O)OC1CC(C(C)CCC=C(C)C(=O)O)C2(C)CCC3=C(C(O)CC4C(C)(C)C(=O)CCC34C)C12C",
+    "output": "酮-CC(C)=O,酯-COC(C)=O,醚-COC,醇-O,羧酸-O=CO"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC(=CCCC(C)C1CC(O)C2(C)C3=CCC4C(C)(C)C(=O)CCC4(C)C3=CCC12C)C(=O)O",
+    "output": "羧酸-O=CO,酮-CC(C)=O,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "CC(CC(=O)CC(C)(O)C1CC(=O)C2(C)C3=C(C(=O)CC12C)C1(C)CCC(=O)C(C)(C)C1CC3O)C(=O)O",
+    "output": "羧酸-O=CO,酮-CC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团值。",
+    "input": "CC(C)=CCc1c(O)cc2oc(-c3ccc(O)c(O)c3)c(O)c(=O)c2c1O",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "COc1ccc(-c2coc3cc(O)c(CC=C(C)C)c(O)c3c2=O)cc1O",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CCCCCC1CCC(=O)O1",
+    "output": "醚-COC,酯-COC(C)=O"
+  },
+  {
+    "instruction": "请提供该分子的官能团值。",
+    "input": "CC(NC(=O)CCC(N)C(=O)O)C(=O)NCC(=O)O",
+    "output": "羧酸-O=CO,胺-N,酰胺-CC(N)=O,醇-O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团吗？",
+    "input": "OCC(CO)OC1OC(C(O)CO)C(OC2OC(C(O)CO)C(O)C2O)C1O",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "COc1cc2c(cc1OC)C13CC(OC)C=CC1=CCN3CCC2",
+    "output": "醚-COC,醚-COC,胺-N"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "CC(C)=CCCC(C(=O)OC1OC(CO)C(O)C(O)C1O)C1CCC2(C)C3=C(CCC12C)C1(C)CCC(O)C(C)(C)C1CC3",
+    "output": "醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请给我提供这个分子的官能团值。",
+    "input": "Cc1sc(COS(C)=O)c(C)c1C",
+    "output": ""
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "CC1C(O)C(O)C2C3(C)C(OC(=O)C13)C(O)C1C(C)(O)C=CC(OC3OC(CO)C(O)C(O)C3O)C12C",
+    "output": "醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团值。",
+    "input": "CC(=O)OC1CC(OC(C)=O)C2(C)OC2C2C(OC(=O)c3ccccc3)C(C)CC23OC(C(=O)C1(C)C)C(C)C3=O",
+    "output": "酮-CC(C)=O,酯-COC(C)=O,醚-C1CO1,醚-COC,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "我对这个分子的官能团很感兴趣，你能告诉我它是什么吗？",
+    "input": "C=C1C(=O)OC2C1C(OC(=O)C(C)=CCO)CC(O)(CCl)C1C(OC(C)=O)C3OC3(C)C21",
+    "output": "酯-CC(=O)OC,酯-COC(C)=O,醚-C1CO1,醚-COC,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC(=O)OCC12C(OC(C)=O)C(OC(C)=O)C3C(OC(=O)c4ccccc4)C14OC3(C)COC(=O)c1cccnc1C(C)C(C)C(=O)OC(C(OC(C)=O)C2OC(=O)c1ccccc1)C4(C)O",
+    "output": "酯-CC(=O)OC,醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "CC1=CCCC2(C)CCC(O)(C(C)C)CC12",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "CCCCOC(=O)C1OC(OC2CCC3(C)C(CCC4(C)C3C(=O)C=C3C5CC(C)(C(=O)O)CCC5(C)CCC34C)C2(C)C)C(OC2OC(C(=O)OCC)C(O)C(O)C2O)C(O)C1O",
+    "output": "酮-CC(C)=O,酯-COC(C)=O,醚-COC,醇-O,羧酸-O=CO"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CC(=O)OC1CC2CC(OC(=O)C=Cc3ccccc3)CC1N2C",
+    "output": "胺-N,醚-COC,酯-COC(C)=O,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC1(C)CCC2(CO)CCC3(C)C(=CCC4C5(C)CCC(O)C(C)(C)C5CCC43C)C2C1",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "你能告诉我这个分子官能团吗？",
+    "input": "CC1OC(Oc2cc(O)c3c(c2)OC(c2ccc(O)c(O)c2)CC3=O)C(O)C(O)C1O",
+    "output": "酮-CC(C)=O,醚-COC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "我需要知道这个分子的官能团，你能提供吗？",
+    "input": "CC(C)C1=C2C3CC=C4C(O)C5(O)COC6OC(C4C6(O)C5O)C3(C)CCC2(C)CC1",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "请给我提供这个分子的官能团值。",
+    "input": "COc1cc2c(c(O)c1CC=C(C)CC(O)C=C(C)C)COC2=O",
+    "output": "醚-COC,酯-CC(=O)OC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "你能告诉我这个分子的官能团值吗？",
+    "input": "Oc1ccc(C=Cc2cc(O)cc3c2C(c2cc(O)cc(O)c2)C(c2ccc(O)cc2)O3)cc1",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "O=C(OC1Cc2c(OC3OC(CO)C(O)C(O)C3O)cc(O)cc2OC1c1ccc(O)c(O)c1)c1ccccc1",
+    "output": "醚-COC,酯-CC(=O)OC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "我对这个分子的官能团很感兴趣，你能告诉我它是什么吗？",
+    "input": "C=C1CC23CCC4C(C)(C)CCCC4(C)C2CCC1C3",
+    "output": ""
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "CC1CCC23C(C)CCC(C(C)(C)O)C2C13",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "COC(=O)C1OC(OC2CCC3(C)C(CCC4(C)C3CC=C3C5CC(C)(C)CCC5(C(=O)O)C(O)CC34C)C2(C)C)C(O)C(O)C1O",
+    "output": "羧酸-O=CO,醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC(C)=CC(O)CC(C)C1CCC2(C)C3=C(CCC12C)C1(C)CCC(=O)C(C)(C)C1CC3O",
+    "output": "酮-CC(C)=O,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC(C(O)C=CC(C)(C)O)C1CCC2(C)C3=CCC4C(C)(C)C(=O)CCC4(C)C3CCC12C",
+    "output": "酮-CC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请给我提供这个分子的官能团。",
+    "input": "CC(C)=CCCC(C)(O)C1CCC2(C)C1CCC1C3(C)CCC(=O)C(C)(C)C3CCC12C",
+    "output": "酮-CC(C)=O,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "C=C(OC1CC2C3CC=C4CC(OC5OC(CO)C(OC6OC(C)C(O)C(O)C6O)C(O)C5OC5OC(C)C(O)C(O)C5O)CCC4(C)C3CCC2(C)C1CC)C(CC(C)COC1OC(CO)C(O)C(O)C1O)OC",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CCCCCCN(C)C",
+    "output": "胺-N"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "COC(=O)C1=COC(OC2OC(COC(=O)C3=COC(OC4OC(CO)C(O)C(O)C4O)C4C(COC(=O)SC)=CC(O)C34)C(O)C(O)C2O)C2C(COC(=O)SC)=CC(O)C12",
+    "output": "醚-COC,醇-O,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "我对这个分子的官能团很感兴趣，你能告诉我它是什么吗？",
+    "input": "CC(C)C1C2OC(=O)C1C1(O)C3OC3C3(CO3)C1(C)C2O",
+    "output": "醚-COC,醚-C1CO1,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "你能告诉我这个分子官能团吗？",
+    "input": "OCC1OC(OC2OCCC3C(O)C4OC4(CO)C23)C(O)C(O)C1O",
+    "output": "醚-COC,醚-C1CO1,醇-O"
+  },
+  {
+    "instruction": "请给我提供这个分子的官能团值。",
+    "input": "C=CC1(C)CCC=C(C)C(=O)OCC2OC(OC(C)(C=C)CCC=C(C)C(=O)OCC3OC(O1)C(O)C(O)C3O)C(O)C(O)C2O",
+    "output": "醚-COC,醇-O,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "COc1cc(CCC(=O)O)cc(-c2cc(CCC(=O)O)cc(OC)c2OC2OC(CO)C(O)C(O)C2O)c1O",
+    "output": "羧酸-O=CO,醚-COC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "O=C(O)c1cc2c([nH]c3ccccc32)c(C(O)CO)n1",
+    "output": "羧酸-O=CO,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "CCC(C)C1NC(=O)C(CO)NC(=O)C(Cc2ccccc2)NC(=O)C(C(C)C)NC(=O)CNC(=O)C2CCCN2C1=O",
+    "output": "胺-N,酰胺-CC(N)=O,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CC1=CC2c3cc(C4COc5cc(O)c(C)c(O)c5C4=O)c(O)cc3OC(C)(C)C2CC1",
+    "output": "酮-CC(C)=O,醚-COC,醇-O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团吗？",
+    "input": "COC(=O)Cc1cc(O)cc(CC=C(C)CCC=C(C)C)c1O",
+    "output": "醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "我对这个分子的官能团很感兴趣，你能告诉我它是什么吗？",
+    "input": "COC(=O)CC1C2CCC3C4C(=O)OC(C4C(C)C)C(N1C)C32C",
+    "output": "胺-N,醚-COC,酯-COC(C)=O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "OCC1OC(Oc2cc3c(O)cc(O)cc3[o+]c2-c2cc(O)c(O)c(O)c2)C(O)C(O)C1O.[Cl-]",
+    "output": "醚-COC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团值。",
+    "input": "CCN1CC2(CO)CCC(OC)C34C5CC6C(OC)CC(O)(C5C6O)C(O)(C(OC)C23)C14",
+    "output": "醚-COC,胺-N,醇-O"
+  },
+  {
+    "instruction": "请给我这个分子的官能团。",
+    "input": "CC1CCC2(OC1)OC1CC3C4CCC5CC(OC6OC(CO)C(OC7OC(CO)C(O)C(OC8OCC(O)C(O)C8O)C7OC7OC(CO)C(O)C(O)C7O)C(O)C6O)CCC5(C)C4CCC3(C)C1C2C",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "C=CC(C)(C)c1[nH]c2cc(Br)ccc2c1CCNC",
+    "output": "胺-N"
+  },
+  {
+    "instruction": "我需要知道这个分子的官能团，你能提供吗？",
+    "input": "COc1cc2cc(Oc3ccc4ccc(=O)oc4c3)c(=O)oc2cc1OC",
+    "output": "醚-COC,醚-COC"
+  },
+  {
+    "instruction": "你能告诉我这个分子的官能团吗？",
+    "input": "COc1c(C=O)c(O)cc2c1C(=O)c1ccccc1C2=O",
+    "output": "醚-COC,酮-CC(C)=O,醛-CC=O,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "C=C(CCC=C(C)C)C1CCC2(C)C1CCC1C3(C)CCCC(C)(C)C3CCC12C",
+    "output": ""
+  },
+  {
+    "instruction": "我对这个分子的官能团很感兴趣，你能告诉我它是什么吗？",
+    "input": "COc1cc2oc(=O)cc(-c3ccccc3)c2cc1O",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "你能告诉我这个分子的官能团吗？",
+    "input": "CC1=C2CC3CCC(C)C2(C=C1)C3(C)C",
+    "output": ""
+  },
+  {
+    "instruction": "你能告诉我这个分子的官能团值吗？",
+    "input": "O=C1C=CCC1",
+    "output": "酮-CC(C)=O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CC1=C(C)CCCCCC1",
+    "output": ""
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "OCC1CCCCCCC1",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "C1CCCCCCC1",
+    "output": ""
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "C=C(C)C(C)(C)CCC(C)C1CCC2(C)C3CCC4C(C)(C)C(=O)CCC45CC35CCC12C",
+    "output": "酮-CC(C)=O"
+  },
+  {
+    "instruction": "我需要知道这个分子的官能团，你能提供吗？",
+    "input": "CC(C)(OC1OC(CO)C(O)C(O)C1O)C1CCC(C)(C2C(O)CC3(C)C4CC(O)C5C(C)(C)C(OC6OC(CO)C(O)C(O)C6O)CCC56CC46CCC23C)O1",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "Oc1cc(O)c2cc(OC3OC(COC4OCC(O)C(O)C4O)C(O)C(O)C3O)c(-c3ccc(O)c(O)c3)[o+]c2c1",
+    "output": "醚-COC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CC1OC(OCC2OC(Oc3cc4c(O)cc(O)cc4[o+]c3-c3ccc(O)c(O)c3)C(O)C(O)C2O)C(O)C(O)C1O.[Cl-]",
+    "output": "醚-COC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "C=C(C)C1CCC2(C(=O)OC3OC(COC4OC(CO)C(OC5OC(C)C(O)C(O)C5O)C(O)C4O)C(O)C(O)C3O)CCC3(C)C(CCC4C5(C)CCC(OC6OCC(O)C(O)C6OC6OC(C)C(O)C(O)C6O)C(C)(C)C5CCC43C)C12",
+    "output": "醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请给我这个分子的官能团。",
+    "input": "O=C(OCC1(O)COC(OC2C(Oc3ccc(O)cc3)OC(CO)C(O)C2O)C1O)c1ccccc1",
+    "output": "醚-COC,酯-CC(=O)OC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团吗？",
+    "input": "CC=C1CC(C)C(C)(O)C(=O)OCC2=CCN3CC(O)C(OC1=O)C23",
+    "output": "酯-CC(=O)OC,胺-N,酯-COC(C)=O,醚-COC,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CC(=O)CC(c1ccccc1)c1c(O)c2ccccc2oc1=O",
+    "output": "酮-CC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CC1=CCC2C3C(C(C)C)C(O)CC2(C)C13",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC=C1CN(C)C2Cc3c([nH]c4ccccc34)C(c3cc4c5c([nH]c4cc3OC)C3(C(=O)OC)CC4CC(CC)C3N(CC5)C4)CC1C2C(=O)OC",
+    "output": "醚-COC,醚-COC,酯-COC(C)=O,胺-N"
+  },
+  {
+    "instruction": "我对这个分子的官能团很感兴趣，你能告诉我它是什么吗？",
+    "input": "CC(C1OC1C1OC1(C)C)C1CCC2(C)C3=CCC4C(C)(C)C(=O)CCC4(C)C3CCC12C",
+    "output": "酮-CC(C)=O,醚-C1CO1"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC1OC(OC2C(OC3CCC4(C)C(CCC5(C)C4CC=C4C6CC(C)(C)CCC6(C(=O)O)CCC45C)C3(C)C)OCC(O)C2O)C(O)C(OC2OCC(OC3OC(CO)C(O)C(O)C3O)C(O)C2O)C1O",
+    "output": "羧酸-O=CO,醚-COC,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC1OC(OC2C(CO)OC(OCC3OC(OC(=O)C45CCC(C)(C)CC4C4=CCC6C7(C)CCC(OC8OCC(O)C(O)C8OC8OC(C)C(O)C(OC9OCC(OC%10OC(CO)C(O)C(O)C%10O)C(O)C9O)C8O)C(C)(CO)C7CCC6(C)C4(C)CC5)C(O)C(O)C3O)C(O)C2O)C(O)C(O)C1O",
+    "output": "醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "C=C1CCC2(C(=O)OC3OC(COC4OC(CO)C(OC5OC(C)C(O)C(O)C5O)C(O)C4O)C(O)C(O)C3O)CCC3(C)C(=CCC4C5(C)CCC(OC6OC(CO)C(O)C6O)C(C)(C)C5CCC43C)C2C1",
+    "output": "醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请给我提供这个分子的官能团值。",
+    "input": "CC(=O)C=C=C1C(C)(C)CC(O)CC1(C)OC1OC(CO)C(O)C(O)C1O",
+    "output": "酮-CC(C)=O,醚-COC,醇-O"
+  },
+  {
+    "instruction": "我对这个分子的官能团很感兴趣，你能告诉我它是多少吗？",
+    "input": "CC=CC=CC(O)CC(O)CCO",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团吗？",
+    "input": "C=CC(O)C#CC#CC(O)C=CCCCCCCC",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC(=O)C=C=C1C(C)(C)CC(OC2OC(COC3OCC(O)(CO)C3O)C(O)C(O)C2O)CC1(C)O",
+    "output": "酮-CC(C)=O,醚-COC,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "COc1cc2c(c(OC)c1OC)C(=O)c1c(cc(C)c(O)c1OC)C2=O",
+    "output": "醚-COC,酮-CC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团值。",
+    "input": "C=Cc1c(C)c2cc3nc(c(CC(=O)[O-])c4[n-]c(cc5nc(cc1[n-]2)C(C)=C5CC)c(C)c4C(=O)[O-])C(CCC(=O)[O-])C3C.[Cu+2].[Na+].[Na+].[Na+]",
+    "output": ""
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "CCC12C=CCN3CCC4(c5ccccc5N(C)C4C(O)(C(=O)OC)C1O)C32",
+    "output": "胺-N,醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "我对这个分子的官能团很感兴趣，你能告诉我它是多少吗？",
+    "input": "Oc1cc(O)c2c(c1)CC1c3cc(O)c(O)cc3C2c2c(O)cc(O)cc21",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "OC1CC=C2CCN3Cc4cc5c(cc4C1C23)OCO5",
+    "output": "醚-COC,胺-N,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "COc1ccc(-c2oc3c(CC=C(C)C)c(OC4OC(CO)C(O)C(O)C4O)cc(O)c3c(=O)c2OC2OC(C)C(OC(C)=O)C(OC3OC(COC(C)=O)C(OC(C)=O)C(O)C3O)C2O)cc1",
+    "output": "醚-COC,醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "C=C(C)C1CCC2(C)C(O)CC(O)C(=C)C2(O)C1",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "COc1cc(C2c3cc(O)c(OC)cc3C=C(C(=O)NCCc3ccc(O)cc3)C2C(=O)NCCc2ccc(O)cc2)ccc1O",
+    "output": "醚-COC,胺-N,酰胺-CC(N)=O,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC(C)=CCCC1(C)C2CCC1(C)C(O)C2",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "OCC1OC(Oc2cc3c(O)cc(O)cc3[o+]c2-c2ccc(O)cc2)C(O)C(O)C1O",
+    "output": "醚-COC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CCCc1cc(=O)oc2c3c(c4c(c12)OC(C)(C)C=C4)OC(C)C(C)C3O",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团吗？",
+    "input": "C=C1C(NC)CCC23CC24CCC2(C)C(C(C)=O)C(O)CC2(C)C4CCC13",
+    "output": "酮-CC(C)=O,胺-N,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CCCCOC(=O)CC",
+    "output": "醚-COC,酯-COC(C)=O"
+  },
+  {
+    "instruction": "你能告诉我这个分子官能团吗？",
+    "input": "CCC(C)CCC(O)C1C(=O)OCC1CO",
+    "output": "醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团值。",
+    "input": "CC12CC3OC(=O)CC3(CCO1)O2",
+    "output": "醚-COC,酯-COC(C)=O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "C=C1C=CC(O)C2(C)C1CC1OC(=O)C(O)C3(O)C4(C)OCC13C2C(O)C4O",
+    "output": "醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC(C)=CCc1cc(C(=O)C=Cc2ccc(O)c(O)c2)c(O)cc1O",
+    "output": "酮-CC(C)=O,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC(C)=CCc1cc(CCCc2ccc(O)cc2O)ccc1O",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团值。",
+    "input": "CC(CCC(O)C(C)(C)O)C1C(O)CC2(C)C3CC(OC4OC(CO)C(O)C(O)C4O)C4C(C)(C)C(OC5OCC(O)C(OC6OCC(O)C(O)C6O)C5O)CCC45CC35CCC12C",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "我对这个分子的官能团很感兴趣，你能告诉我它是多少吗？",
+    "input": "COC1C(O)C(C)OC(OC2CCC3(C)C4C(O)CC5(C)C(C6=CC(=O)OC6)CCC5(O)C4CCC3(O)C2)C1O",
+    "output": "醚-COC,醇-O,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "请提供该分子的官能团值。",
+    "input": "COc1ccc(-c2coc3cc(OC4OC(COC5OCC(O)(COC6OCC(O)(CO)C6O)C5O)C(O)C(O)C4O)cc(O)c3c2=O)cc1",
+    "output": "醚-COC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "CCC=CC=CC(=O)O",
+    "output": "羧酸-O=CO,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "O=C1CC2CC(C1)C2",
+    "output": "酮-CC(C)=O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "COC12CC3C4CC=C5CC(O)CCC5(C)C4CCC3(C)C1C(C)C1(CCC(C)CO1)O2",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团值。",
+    "input": "C=CC(=C)CCC=C(C)CCC=C(C)C=O",
+    "output": "醛-CC=O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团？",
+    "input": "COc1ccc2cc3[n+](cc2c1OC)CCc1cc2c(cc1-3)OCO2",
+    "output": "醚-COC"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "COc1cc2c3cc1Oc1c(OC)c(OC)cc4c1C(Cc1ccc(O)c(c1)Oc1ccc(cc1)CC3N(C)CC2)N(C)CC4",
+    "output": "醚-COC,醚-COC,胺-N,醇-O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团？",
+    "input": "O=C(Cc1ccccc1)OCC=Cc1ccccc1",
+    "output": "醚-COC,酯-COC(C)=O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "CN1C2CCC1CC(OC(=O)C1CCC(C(=O)OC3CC4CCC(C3)N4C)(c3ccccc3)c3ccccc31)C2",
+    "output": "胺-N,醚-COC,酯-COC(C)=O"
+  },
+  {
+    "instruction": "你能告诉我这个分子的官能团值吗？",
+    "input": "CC(=O)OC1C(O)C(C2(C)CCC(C(C)(C)O)O2)C2(C)C(O)CC34CC35CCC(OC3OCC(O)C(O)C3O)C(C)(C)C5CCC4C12C",
+    "output": "醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "OCC1=CCC2C=COC(OC3OC(CO)C(O)C(O)C3O)C12",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团？",
+    "input": "O=C(O)C1CCN(Cc2ccccc2)C1",
+    "output": "羧酸-O=CO,胺-N,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "C=C1C(=O)OC2CC(C)=CC(O)CC3(C)OC3CC12",
+    "output": "醚-COC,醚-C1CO1,醇-O,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "O=c1cc(-c2ccccc2)oc2cc(OC3OC(CO)C(O)C(O)C3O)c(O)c(O)c12",
+    "output": "醚-COC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "请给我提供这个分子的官能团值。",
+    "input": "CC(C)=CC1CC(C)(O)C2C3CCC4C5(C)CCC(OC6OCC(O)C(OC7OC(CO)C(O)C(O)C7O)C6O)C(C)(C)C5CCC4(C)C34COC2(C4)O1",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC(=O)OC1CC2C(C)(C)C(OC3OCC(O)C(O)C3O)C=CC2(C)C2CCC3(C)C(c4ccoc4)OC(=O)C4OC43C12C",
+    "output": "醚-COC,醚-C1CO1,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "CC(C)CC(=O)OCCC(O)C=CC=CC#CC#CC=CCO",
+    "output": "醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CC(C)(O)C1CCC(C)(C2C(O)CC3(C)C4CC(OC5OC(CO)C(O)C(O)C5O)C5C(C)(C)C(OC6OCC(O)C(O)C6OC6OC(CO)C(O)C(O)C6O)CCC56CC46CCC23C)O1",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "CC(CCC(O)C(C)(C)O)C1C(OC2OC(CO)C(O)C(O)C2O)CC2(C)C3CC(O)C4C(C)(C)C(OC5OCC(O)C(O)C5OC5OC(C)C(O)C(O)C5O)CCC45CC35CCC12C",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC1CCC2(C(=O)OC3OC(COC4OC(CO)C(OC5OC(C)C(O)C(O)C5O)C(O)C4O)C(O)C(O)C3O)CCC3(C)C(=CCC4C5(C)CC(O)C(O)C(C)(CO)C5C(O)CC43C)C2C1C",
+    "output": "醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC1OC(OC2C(O)C(C)OC(OC3C(CO)OC(Oc4c(-c5ccc(O)cc5)oc5cc(O)cc(O)c5c4=O)C(O)C3O)C2O)C(O)C(O)C1O",
+    "output": "醚-COC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "COC(=O)c1cc2c(c3c1c([N+](=O)[O-])cc1ccccc13)OCO2",
+    "output": "醚-COC,醚-COC,胺-[N+],酯-CC(=O)OC"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC1OC(OC2C(OC3COC(OC4CCC5(C)C(CCC6(C)C5CCC57OCC8(CCC(C)(C=O)CC85)C(=O)CC67C)C4(C)C)C(OC4OC(CO)C(O)C(O)C4O)C3O)OC(CO)C(O)C2O)C(O)C(O)C1O",
+    "output": "酮-CC(C)=O,醚-COC,醛-CC=O,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "COc1cc(CC2COC(=O)C2Cc2ccc(OC(CO)C(O)c3ccc(O)c(OC)c3)c(OC)c2)ccc1O",
+    "output": "醚-COC,醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团？",
+    "input": "CCCCCC=CCC=CCC=CCC=CCCCC(=O)O",
+    "output": "羧酸-O=CO,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "COc1c(O)c(O)c(OC2OC(C(=O)O)C(O)C(O)C2O)c2oc(-c3ccc(O)cc3)cc(=O)c12",
+    "output": "羧酸-O=CO,醚-COC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "请给我提供这个分子的官能团。",
+    "input": "CC1OC(OC2C(Oc3cc(O)c4c(=O)cc(-c5ccc(O)cc5)oc4c3)OC(CO)C(O)C2O)C(O)C(O)C1O",
+    "output": "醚-COC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CCCCCCCCCCC(O)C1CCC(C2CCC(C(O)CCCCC(O)CCCCCC(O)CC3=CC(C)OC3=O)O2)O1",
+    "output": "醚-COC,醇-O,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "请给我提供这个分子的官能团。",
+    "input": "CC1=C(CCC(C)COC2OC(CO)C(O)C(O)C2O)OC2CC3C4CCC5CC(OC6OC(CO)C(O)C(O)C6OC6OC(CO)C(O)C(O)C6O)CCC5(C)C4CCC3(C)C12",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "请给我提供这个分子的官能团值。",
+    "input": "COc1cc(OC)c2c(c1-c1ccc(OC)c3c(OC)cc(C)cc13)CC(C)N(C)C2C",
+    "output": "醚-COC,胺-N"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团吗？",
+    "input": "CN(C)NC(=O)CCC(=O)O",
+    "output": "羧酸-O=CO,胺-N,酰胺-CC(N)=O,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "CC=C1C(=O)OCC2C3Cc4c(n(C)c5ccccc45)C(CC12)N3",
+    "output": "醚-COC,胺-N,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC1(C)C=Cc2c(cc3occ(-c4ccc(O)cc4)c(=O)c3c2O)O1",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "我对这个分子的官能团很感兴趣，你能告诉我它是多少吗？",
+    "input": "CC(C)=CCc1occc1C",
+    "output": ""
+  },
+  {
+    "instruction": "你能告诉我这个分子的官能团吗？",
+    "input": "CC(C(O)CCC(C)(C)O)C1CCC2(O)C3=CC(=O)C4CC(O)C(O)CC4(C)C3CCC12C",
+    "output": "酮-CC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CC(C)OC(C)(C)c1ccccc1",
+    "output": "醚-COC"
+  },
+  {
+    "instruction": "我对这个分子的官能团很感兴趣，你能告诉我它是多少吗？",
+    "input": "CC1OC(OCc2cc(O)c3c(c2)C(C2OC(CO)C(O)C(O)C2O)c2cccc(O)c2C3=O)C(O)C(O)C1O",
+    "output": "酮-CC(C)=O,醚-COC,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "O=C1c2c(O)cccc2C(C2c3cccc(O)c3C(=O)c3c(O)cc(CO)cc32)c2cc(CO)cc(O)c21",
+    "output": "酮-CC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请给我提供这个分子的官能团值。",
+    "input": "COC(=O)C1=COC2OC3C(C(C)O)C(=O)OC34C=CC1C24",
+    "output": "醚-COC,酯-COC(C)=O,醇-O,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "你能告诉我这个分子的官能团吗？",
+    "input": "O=CC(O)C(O)C(O)C(O)CO",
+    "output": "醛-CC=O,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CC(C)=CCc1c(-c2ccc(O)cc2O)oc2c(C=CC3(C)CC(C)=CC(c4c(O)cc(O)c5c(=O)c(CC=C(C)C)c(-c6ccc(O)cc6O)oc45)C3)c(O)cc(O)c2c1=O",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团？",
+    "input": "CC1=C(CO)C(=O)OC(C(C)(O)C2(O)CCC3(O)C4CC=C5C=CCC(=O)C5(C)C4CCC32C)C1",
+    "output": "酮-CC(C)=O,醚-COC,醇-O,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CC(=O)OC1C(OC2CCC34CC35CCC3(C)C(C6(C)CCC(C(C)(C)OC7OC(CO)C(O)C(O)C7O)O6)C(O)CC3(C)C5CC(OC3OC(CO)C(O)C(O)C3O)C4C2(C)C)OCC(O)C1O",
+    "output": "醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "COc1ccc(-c2cc(=O)c3c(O)cc(OC4OC(COC(C)=O)C(O)C(O)C4O)cc3o2)cc1",
+    "output": "醚-COC,醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CC=C1CN2C3CC1C(CO)C2Cc1c3n(C)c2ccccc12",
+    "output": "胺-N,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "CC1(C(=O)O)CCCC2(C)C1CCC13CC(CC(O)C12)C(O)(CO)C3=O",
+    "output": "羧酸-O=CO,酮-CC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请给我提供这个分子的官能团值。",
+    "input": "CCCCCCCCCC=C1C(=O)OC(C)(OC)C1O",
+    "output": "醚-COC,醇-O,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "C=C1CCC(O)C(C)(C)C1CCC(C)=CCCC=C(C)CCC=C(C)CCC=C(C)C",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团吗？",
+    "input": "CC(=O)OCC1=COC(OC(=O)CC(C)C)C2C1=CC(OC(=O)CC(C)(C)OC(C)=O)C21CO1",
+    "output": "醚-COC,酯-COC(C)=O,醚-C1CO1"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC=C1COC(C=C(C)C(=O)OC2CC3(C(=O)O)C(O)CC4(C)C(=CCC5C6(C)CCC(O)C(C)(C)C6CCC54C)C3CC2(C)C)C1",
+    "output": "羧酸-O=CO,醚-COC,醇-O,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "我对这个分子的官能团很感兴趣，你能告诉我它是多少吗？",
+    "input": "COc1ccc(-c2cc(=O)c3c(O)cc(O)cc3o2)cc1",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "COC(=O)C1OC(OC2C(OC3CCC45CC46CCC4(C)C(C(C)C7CC=C(C)C(=O)O7)CCC4(C)C6CCC5C3(C)C(=O)O)OC(CO)C(O)C2O)C(O)C(O)C1O",
+    "output": "酯-CC(=O)OC,酯-COC(C)=O,醚-COC,醇-O,羧酸-O=CO"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "CCCCCC=CC=CC(O)CCCCCCCC(=O)O",
+    "output": "羧酸-O=CO,醇-O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团吗？",
+    "input": "Cc1ccc(C(C)CO)c(O)c1",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "C=CC1(C)C=C2C(=O)CC3C(C)(C)CCCC3(C)C2(O)CC1",
+    "output": "酮-CC(C)=O,醇-O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团？",
+    "input": "Cc1cc(O)cc2c1OC(C)(CCCC(C)CCCC(C)CCCC(C)C)CC2",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "你能告诉我这个分子的官能团吗？",
+    "input": "COc1c2c3c(ccc2c2ccc4cc5c(cc4c2[n+]1C)OCO5)OCO3",
+    "output": "醚-COC"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团？",
+    "input": "COc1ccc2c(c(OC)nc3c4cc5c(cc4ccc23)OCO5)c1O",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "COc1ccc2ccc(=O)oc2c1C=O",
+    "output": "醚-COC,醛-CC=O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC1C(=O)OC2C1C(OC(=O)C1(C)CO1)CC(C)C1(O)C=CC(=O)C21C",
+    "output": "酮-CC(C)=O,酯-COC(C)=O,醚-C1CO1,醚-COC,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CCN1CC2CCC(OC)C34C2CC(C13)C1(OC(C)=O)CC(OC)C2CC4C1C2OC(C)=O",
+    "output": "胺-N,醚-COC,酯-COC(C)=O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团吗？",
+    "input": "CCC=CCC=CCC=CCCCCCC(=O)O",
+    "output": "羧酸-O=CO,醇-O"
+  },
+  {
+    "instruction": "我对这个分子的官能团很感兴趣，你能告诉我它是什么吗？",
+    "input": "CCCCCCCC(C)CCCCCC",
+    "output": ""
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "COc1cc2c(O)c3c4c(c(OC)c(OC)c(OC)c4c2cc1OC)CCN3C",
+    "output": "醚-COC,胺-N,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "COc1c(O)ccc2oc3ccccc3c(=O)c12",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "请给我这个分子的官能团。",
+    "input": "CCCCCCCC(C)CC(C)CCCCCC",
+    "output": ""
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CCC=CCC=CCC=CCCCC(C)=O",
+    "output": "酮-CC(C)=O"
+  },
+  {
+    "instruction": "请给我提供这个分子的官能团。",
+    "input": "COc1ccc(C2Cc3cc(OC)cc(OC4OC(CO)C(O)C(O)C4O)c3C(=O)O2)cc1",
+    "output": "醚-COC,酯-CC(=O)OC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "COc1c(O)cc2oc(-c3ccc(O)cc3)c(O)c(=O)c2c1O",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团？",
+    "input": "COc1c(O)c(C=O)c2c(O)cc(C)cc2c1C(C)C",
+    "output": "醚-COC,醛-CC=O,醇-O"
+  },
+  {
+    "instruction": "请给我提供这个分子的官能团值。",
+    "input": "CCCCCC(CC(=O)CCc1ccc(O)c(OC)c1)S(=O)(=O)O",
+    "output": "醚-COC,酮-CC(C)=O,磺酸-O=S(=O)O,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "COc1ccc2c(c1OC)C(CC(C)=O)N(C)c1c-2ccc2cc3c(cc12)OCO3",
+    "output": "醚-COC,酮-CC(C)=O,胺-N"
+  },
+  {
+    "instruction": "请提供该分子的官能团值。",
+    "input": "COC(=O)C1(c2cc3ccccc3[nH]2)COCC2OC23CN(C)CCC13",
+    "output": "胺-N,醚-COC,酯-COC(C)=O,醚-C1CO1"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CC(=O)Oc1cc2oc(=O)ccc2cc1CC(O)C(C)(C)O",
+    "output": "醚-COC,醇-O,酯-COC(C)=O"
+  },
+  {
+    "instruction": "我对这个分子的官能团很感兴趣，你能告诉我它是多少吗？",
+    "input": "COc1cc(OCC=C(C)C)c2ccc(=O)oc2c1",
+    "output": "醚-COC"
+  },
+  {
+    "instruction": "请给我提供这个分子的官能团值。",
+    "input": "CCCCCCCCCCCCCCCCCc1cc(O)cc(O)c1",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团吗？",
+    "input": "O=C1CCCC=CCCCCCCCC1",
+    "output": "酮-CC(C)=O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "COc1ccc(CCc2cc(=O)c3c(o2)C(OC(C)=O)C(OC(C)=O)C(OC(C)=O)C3OC(C)=O)cc1",
+    "output": "醚-COC,醚-COC,酯-COC(C)=O"
+  },
+  {
+    "instruction": "我需要知道这个分子的官能团，你能提供吗？",
+    "input": "O=c1cc(CCc2ccccc2O)oc2c1C(O)C(O)C(O)C2O",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "我对这个分子的官能团很感兴趣，你能告诉我它是什么吗？",
+    "input": "COc1cc(-c2cc(=O)c3c(O)c(OC)c(O)cc3o2)cc(O)c1O",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "请给我提供这个分子的官能团值。",
+    "input": "COc1c(OC)c(O)c2c(=O)cc(-c3cc(O)ccc3O)oc2c1OC",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "C=C(C)C(CC)CCC(C)C1CCC2C3CC=C4CC(O)CCC4(C)C3CCC12C",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC1=CCCC2(C)OC2CC(=C(C)C)C(=O)C1",
+    "output": "酮-CC(C)=O,醚-C1CO1"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "COc1ccc2c(c1)OC1c3ccc(OC)c(O)c3OCC21",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "COc1cc(O)ccc1C(=O)C=Cc1ccccc1",
+    "output": "酮-CC(C)=O,醚-COC,醇-O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团？",
+    "input": "COc1ccc(C(=O)CCc2ccc(O)cc2)c(OC)c1",
+    "output": "酮-CC(C)=O,醚-COC,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "O=C(O)CCCCl",
+    "output": "羧酸-O=CO,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "CC(C)(O)C(O)COc1c2ccoc2cc2oc(=O)ccc12",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "Oc1cc(O)c2c(c1)OC1(c3ccc(O)c(O)c3)Oc3cc(O)c4c(c3C2C1OC1OCC(O)C(O)C1O)OC(c1ccc(O)c(O)c1)C(O)C4c1c(O)cc(O)c2c1OC(c1ccc(O)c(O)c1)C(O)C2",
+    "output": "醚-COC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "COc1cc(CCC(CC(CCc2ccc(O)c(OC)c2)OC(C)=O)OC(C)=O)ccc1O",
+    "output": "醚-COC,醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请给我这个分子的官能团。",
+    "input": "C=CCCCCCC=CC(O)C#CC#CC(O)C=C",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "COc1cc(CCC(CC(O)CCc2ccc(O)c(O)c2)OC2OC(CO)C(O)C(O)C2O)ccc1O",
+    "output": "醚-COC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "C=CC(=O)OC(CC)CCCCCCCCC",
+    "output": "醚-COC,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "CCC1CN(CCC2(O)C(=O)Nc3ccccc32)C(=O)CC1C(=COC)C(=O)OC",
+    "output": "酯-CC(=O)OC,胺-N,醚-COC,酰胺-CC(N)=O,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "Cc1cn(C2CC(O)C(COP(=O)(O)OP(=O)(O)OC3OC(C)C(=O)C(O)C3O)O2)c(=O)[nH]c1=O",
+    "output": "酮-CC(C)=O,醚-COC,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团值。",
+    "input": "O=c1c2cc(O)c(O)cc2oc2c(-c3cc(O)c4oc5cc(O)cc(O)c5c(=O)c4c3O)c(O)c(C3OC(CO)C(O)C(O)C3O)c(O)c12",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC1CCC2(C(=O)O)CCC3(C)C(=CCC4C5(C)CC(O)C(OC(=O)C=Cc6ccc(O)cc6)C(C)(C)C5CCC43C)C2C1(C)O",
+    "output": "羧酸-O=CO,醚-COC,醇-O,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CC1CCCCCCCCCCC(=O)C1",
+    "output": "酮-CC(C)=O"
+  },
+  {
+    "instruction": "我需要知道这个分子的官能团，你能提供吗？",
+    "input": "COCCCOC(C)=O",
+    "output": "醚-COC,酯-COC(C)=O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC(=O)OC1CC(=O)C=C(C(C)C)C1",
+    "output": "酮-CC(C)=O,醚-COC,酯-COC(C)=O"
+  },
+  {
+    "instruction": "你能告诉我这个分子官能团吗？",
+    "input": "C=CCSCCC(C)C",
+    "output": ""
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CCCC(O)CC",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "CC(=O)OC1CC2C(OC(C)=O)C=C(CO)C(O)CC=C(C)C(=O)C(OC(C)=O)C(=C1C)C2(C)C",
+    "output": "酮-CC(C)=O,醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "C=C1C(C)CCC2(C(=O)OC3OC(CO)C(O)C(O)C3O)CCC3(C)C(=CCC4C5(C)CCC(OC6OCC(O)C(O)C6O)C(C)(CO)C5CCC43C)C12",
+    "output": "醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "CC(=O)OC1CCC2(C)C(CCC3(C)C2CCC2C4C(C)C5(C)OC5C(O)C4(C)CCC23C)C1(C)C",
+    "output": "醚-COC,醚-C1CO1,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CCCC(C)C(=O)OC1C(=O)OC2CC3C(C)CC(O)C(O)C3(C)C3C4(O)OCC23C1C(C)C4O",
+    "output": "醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "OCC(O)CCCCC(O)CO",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "COc1cc(OC2OC(C(=O)O)C(O)C(O)C2O)cc2c1C(=O)CC(c1ccccc1O)O2",
+    "output": "酮-CC(C)=O,醚-COC,醚-COC,醇-O,羧酸-O=CO"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CC(=O)OCC1=CC(OC(C)=O)C2CC(OC(C)=O)C(C)=C(C(OC(C)=O)C(OC(C)=O)=C(C)C(OC(C)=O)CC1OC(=O)C(O)C(c1ccccc1)N(C)C)C2(C)C",
+    "output": "胺-N,醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "C=C(C)C1CCC(=C)C(OO)C1",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团？",
+    "input": "Cc1cc2c(c(C)c1CCO)C(=O)C(C)C2O",
+    "output": "酮-CC(C)=O,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC1=CC(O)CC2(C)OC2CC(C)(C)C=CC1=O",
+    "output": "酮-CC(C)=O,醚-C1CO1,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CC(C)=CCCC1(C)C(CC=C(C)C)CC(CC=C(C)C)C(=O)C1C(=O)C(C)C",
+    "output": "酮-CC(C)=O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC=C(C=O)c1ccccc1",
+    "output": "醛-CC=O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CC1NCCS1",
+    "output": "胺-N"
+  },
+  {
+    "instruction": "请提供该分子的官能团值。",
+    "input": "CC1=CC(=O)c2c(O)ccc(O)c2C1=O",
+    "output": "酮-CC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CCC(=O)c1ccc(O)c(OC)c1",
+    "output": "酮-CC(C)=O,醚-COC,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "COC1OCCO1",
+    "output": "醚-COC"
+  },
+  {
+    "instruction": "请提供该分子的官能团值。",
+    "input": "O=C(C=Cc1ccccc1O)c1ccccc1",
+    "output": "酮-CC(C)=O,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "COc1ccc(O)c(C(C)=O)c1",
+    "output": "酮-CC(C)=O,醚-COC,醇-O"
+  },
+  {
+    "instruction": "请给我这个分子的官能团。",
+    "input": "CC(C)=CCC=C(C)C(=O)OC1OC(CO)C(O)C(O)C1O",
+    "output": "醚-COC,醇-O,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "Cc1ccc([N+](=O)[O-])c(Cl)c1C",
+    "output": "胺-[N+]"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "Cc1ccc2c(c1C)C1=CCC3C4(C)CC(O)C(O)C(C)(C(=O)O)C4CCC3(C)C1(C)CC2",
+    "output": "羧酸-O=CO,醇-O"
+  },
+  {
+    "instruction": "你能告诉我这个分子官能团吗？",
+    "input": "C=C(CCC(C(=O)O)C1C(O)CC2(C)C3=CCC4C(C)(CCC(O)C4(C)CO)C3=CCC12C)C(C)C",
+    "output": "羧酸-O=CO,醇-O"
+  },
+  {
+    "instruction": "请给我提供这个分子的官能团。",
+    "input": "CC(C)CCCCCCC(C)C",
+    "output": ""
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "C=C(C)C1CCC2(CO)CCC3(C)C(CCC4C5(C)CCC(=O)C(C)(C)C5CCC43C)C12",
+    "output": "酮-CC(C)=O,醇-O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团吗？",
+    "input": "CC1=CCc2c(OC3OC(COC4OCC(O)C(O)C4O)C(O)C(O)C3O)cc(C)c(O)c2C1",
+    "output": "醚-COC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC1=C(CCC(C)COC2OC(CO)C(O)C(O)C2O)OC2CC3C4CCC5CC(OC6OC(CO)C(OC7OC(CO)C(O)C(O)C7O)C(O)C6O)CCC5(C)C4CC(=O)C3(C)C12",
+    "output": "酮-CC(C)=O,醚-COC,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC(CCC1(O)OC2CC3C4CCC5CC(OC6OC(CO)C(O)C(O)C6OC6OC(CO)C(O)C(O)C6O)CCC5(C)C4CC(=O)C3(C)C2C1C)COC1OC(CO)C(O)C(O)C1O",
+    "output": "酮-CC(C)=O,醚-COC,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团值。",
+    "input": "CC(O)CC(=O)CC(C)C1CC(O)C2(C)C3=C(C(=O)CC12C)C1(C)CCC(O)C(C)(C)C1CC3O",
+    "output": "酮-CC(C)=O,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "c1cc2nc(c1)CCCCCCCCC2",
+    "output": ""
+  },
+  {
+    "instruction": "我需要知道这个分子的官能团，你能提供吗？",
+    "input": "CCC(C)CCCCC(C)CCCC(C)CCCC(C)C",
+    "output": ""
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CC(=O)OCC1OC(OC2CCC3(C)C(=CCC4C3CCC3(C)C4CC4OC(CCC(C)COC5OC(CO)C(O)C(O)C5O)=C(C)C43)C2)C(OC2OC(C)C(O)C(O)C2O)C(OC2OC(C)C(OC3OC(CO)C(O)C(O)C3O)C(O)C2O)C1O",
+    "output": "醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请给我提供这个分子的官能团值。",
+    "input": "COC1(CCC(C)COC2OC(CO)C(O)C(O)C2O)OC2CC3C4CC(O)C56CC5CC(OC5OC(CO)C(O)C(O)C5O)C6(C)C4CCC3(C)C2C1C",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "你能告诉我这个分子的官能团值吗？",
+    "input": "CCCCCCCCCC(=O)CCCCCCCCCCCCCCC(C)CCCCC",
+    "output": "酮-CC(C)=O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CC(C)c1cc2c(c(O)c1O)C1(C(=O)O)CCCC(C)(C)C1CC2",
+    "output": "羧酸-O=CO,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "Cc1ccc(C(C)(C)O)cc1",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "Cc1c[nH]c(C)c1",
+    "output": ""
+  },
+  {
+    "instruction": "请给我这个分子的官能团。",
+    "input": "C=C(C)C(O)Cc1cc(C(=O)COC)ccc1OC",
+    "output": "酮-CC(C)=O,醚-COC,醚-COC,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CC(C)CC(C)(C)CC(C)(C)c1ccccc1",
+    "output": ""
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CC1CCC2(C)CCC3(C)C(=CCC4C(C)(CC(=O)O)C(C(C)(C)C=O)CCC43C)C2C1C",
+    "output": "羧酸-O=CO,醛-CC=O,醇-O"
+  },
+  {
+    "instruction": "请给我这个分子的官能团。",
+    "input": "COc1ccc(-c2cc(=O)c3c(O)cc(O)c(-c4cc(C5CC(=O)c6c(O)cc(O)cc6O5)ccc4O)c3o2)cc1",
+    "output": "酮-CC(C)=O,醚-COC,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "N#CCC1C(=O)Nc2cccc(O)c21",
+    "output": "胺-N,酰胺-CC(N)=O,醇-O,氰基-C#N"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CCC(C)CCC(C)CC(C)C(C)C",
+    "output": ""
+  },
+  {
+    "instruction": "我对这个分子的官能团很感兴趣，你能告诉我它是什么吗？",
+    "input": "CC(C)C(C)C(C)C",
+    "output": ""
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CC(C)=CCCC(C)=CCCC(C)=CCCC=C(C)CCC=C(C)CCC1OC1(C)C",
+    "output": "醚-C1CO1"
+  },
+  {
+    "instruction": "你能告诉我这个分子的官能团吗？",
+    "input": "O=c1cc(CCc2ccccc2)oc2ccc(O)c(-c3ccc(O)c4oc(CCc5ccccc5)cc(=O)c34)c12",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "C=CCCCCCCCCCCCC",
+    "output": ""
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "C=C1CCC(C(C)C)=CC2C1CCC2(C)O",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "我需要知道这个分子的官能团，你能提供吗？",
+    "input": "CCCC(C)CO",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "你能告诉我这个分子的官能团值吗？",
+    "input": "C=CC(O)CCCCCC",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团吗？",
+    "input": "Cn1c(=O)[nH]c2c(ncn2C2OC(CO)C(O)C2O)c1=O",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC(=O)OC1CC2(O)C(OC(C)=O)C3C4(CO4)C(OC(C)=O)CC(OC(C)=O)C3(C)C(OC(C)=O)C(OC(C)=O)C(=C1C)C2(C)C",
+    "output": "醚-COC,醚-C1CO1,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团？",
+    "input": "C=C1CCC(O)C2(C)CCC(C(C)C)C=C12",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CC1C(=O)CC23CC(=O)OCC1(C)C2(O)C(O)CC3(C)O",
+    "output": "酮-CC(C)=O,醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请给我这个分子的官能团。",
+    "input": "CCCCCCCCCCCCCCCCCCCC(O)CCCCCCCCO",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "CCC(C)(O)C(=O)NC1CCCN1C(=O)C1C(c2ccccc2)C2(c3ccc(OC)c(OC)c3)Oc3cc(OC)cc(OC)c3C1(O)C2O",
+    "output": "醚-COC,胺-N,酰胺-CC(N)=O,醇-O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团吗？",
+    "input": "COc1cc(O)c(Cc2ccc(O)cc2)c2ccc3c(Cc4ccc(O)cc4)c(O)ccc3c12",
+    "output": "醚-COC,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "O=C(C=C(O)C=Cc1ccccc1)CCc1ccccc1",
+    "output": "酮-CC(C)=O,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "COc1cc(C=CC(=O)OCC2OC(OC(=O)C=Cc3cc(OC)c(O)c(OC)c3)C(O)C(O)C2O)cc(OC)c1O",
+    "output": "醚-COC,醚-COC,醇-O,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "请提供该分子的官能团值。",
+    "input": "COC1CC(OC2C(O)CC(OC3C(O)CC(OC4C(C)OC(OC5CCC6(C)C(=CCC7(O)C6CC(O)C6(C)C(C(C)=O)CC(O)C76O)C5)CC4OC)OC3C)OC2C)OC(C)C1O",
+    "output": "酮-CC(C)=O,醚-COC,醇-O"
+  },
+  {
+    "instruction": "请给我提供这个分子的官能团。",
+    "input": "CCN1CC2(COC)CCC(O)C34C5CC6C(OC)CC(O)(C5C6OC(=O)c5ccc(OC)c(OC)c5)C(C(OC)C23)C14",
+    "output": "醚-COC,胺-N,醚-COC,酯-CC(=O)OC,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "CCC1NC2CC3(C(=O)N(OC)c4ccccc43)C3OCC2C1C3O",
+    "output": "醚-COC,胺-N,酰胺-CC(N)=O,醇-O"
+  },
+  {
+    "instruction": "我对这个分子的官能团很感兴趣，你能告诉我它是什么吗？",
+    "input": "C=CCC=CCCCCCCCCCCCCC(=O)OC",
+    "output": "醚-COC,酯-COC(C)=O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "CN1CCCC1CC(=O)CC1CCCN1C",
+    "output": "酮-CC(C)=O,胺-N"
+  },
+  {
+    "instruction": "请给我这个分子的官能团。",
+    "input": "CC(C)C1(O)C=C2C(=O)CC3C(C)(C)CCCC3(C)C2CC1",
+    "output": "酮-CC(C)=O,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "COC(=O)C(C)(O)C1CCC(C)(CCC2(O)C(C)CCC3C(C)(C)CCCC32C)O1",
+    "output": "醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "CC(=O)OC1C(OC(C)=O)C2(C)C(OC(=O)C(C)C)OCC3(C1O)C2CC(O)C1(C)C3C(=O)C(O)C2(C)C(c3ccoc3)CC3OC321",
+    "output": "酮-CC(C)=O,酯-COC(C)=O,醚-C1CO1,醚-COC,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团值。",
+    "input": "CC(=O)OC1CC(O)C23COC(OC(=O)C(C)C)C1(C)C2CC(O)C1(C)C3C(=O)C(OC(C)=O)C2(C)C(c3ccoc3)CC3OC321",
+    "output": "酮-CC(C)=O,酯-COC(C)=O,醚-C1CO1,醚-COC,醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "CC(=O)OC1CC(O)C23COC(O)C1(C)C2CC(O)C1(C)C2C(=O)CC(c4ccoc4)C2(C)C(O)C(=O)C13",
+    "output": "酮-CC(C)=O,醚-COC,酯-COC(C)=O,醇-O"
+  },
+  {
+    "instruction": "你能告诉我这个分子的官能团值吗？",
+    "input": "CC1CC=CC2=CCC3C(C3(C)C)C21C",
+    "output": ""
+  },
+  {
+    "instruction": "你能告诉我这个分子的官能团值吗？",
+    "input": "CCc1ccc(CC)c(CC)c1",
+    "output": ""
+  },
+  {
+    "instruction": "请给我提供这个分子的官能团值。",
+    "input": "CC1C2CCC3(C)CC(=O)C=C(CC1(C)O)C23",
+    "output": "酮-CC(C)=O,醇-O"
+  },
+  {
+    "instruction": "这个分子的官能团是多少？",
+    "input": "COC1=CC23CCCN2CC(O)c2cc4c(cc2C3C1O)OCO4",
+    "output": "醚-COC,醚-COC,胺-N,醇-O"
+  },
+  {
+    "instruction": "你能给我这个分子的官能团？",
+    "input": "C1=CC2C=CC1C13CCC21CC3",
+    "output": ""
+  },
+  {
+    "instruction": "你能告诉我这个分子的官能团吗？",
+    "input": "CC1=CC2OC(=O)C(C)C2CCC(C(=O)OC2OC(CO)C(O)C(O)C2O)=CCC1",
+    "output": "醚-COC,酯-COC(C)=O,醇-O,酯-CC(=O)OC"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "C=C1CCC2C(C3C1CCC3(C)O)C2(C)C",
+    "output": "醇-O"
+  },
+  {
+    "instruction": "请提供该分子的官能团。",
+    "input": "COc1cc(OC)c2c3c(cc4ccccc42)NC(=O)c13",
+    "output": "醚-COC,酰胺-CC(N)=O,胺-N"
+  },
+  {
+    "instruction": "我想知道这个分子的官能团，你能提供吗？",
+    "input": "CC(C)C1CCC(C)(O)C2CCC(C=O)=CC12",
+    "output": "醛-CC=O,醇-O"
+  }
+]
