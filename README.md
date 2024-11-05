@@ -1,7 +1,7 @@
 [**中文**](./README_ZH.md) | [**English**](./README.md)
 
 <p align="center" width="100%">
-<a href="https://github.com/daiyizheng/TCMChat" target="_blank"><img src="assets/logo.png" alt="TCMChat" style="width: 25%; min-width: 300px; display: block; margin: auto;"></a>
+<a href="https://github.com/daiyizheng/TCMChat" target="_blank"><img src="./logo.png" alt="TCMChat" style="width: 25%; min-width: 300px; display: block; margin: auto;"></a>
 </p>
 
 # TCMChat: A Generative Large Language Model for Traditional Chinese Medicine
