@@ -53,9 +53,9 @@ We provide an online tool：[https://xomics.com.cn/tcmchat](https://xomics.com.c
 ### Retrain
 #### Dataset Download
 
-- [Pretrain dataset](https://github.com/ZJUFanLab/TCMChat/tree/master/data/pretrain) 
-- [SFT dataset](https://github.com/ZJUFanLab/TCMChat/tree/master/data/sft)
-- [Benchmark dataset](https://github.com/ZJUFanLab/TCMChat/tree/master/data/evaluate)
+- [Pretrain dataset](https://huggingface.co/datasets/ZJUFanLab/TCMChat-dataset-600k) 
+- [SFT dataset](https://huggingface.co/datasets/ZJUFanLab/TCMChat-dataset-600k)
+- [Benchmark dataset](https://github.com/ZJUFanLab/TCMChat/tree/master/evaluation/resources)
 
 
 > Note: Before performing pre-training, fine-tuning, and inference, please modify the relevant paths for your model, data, and other related files.
