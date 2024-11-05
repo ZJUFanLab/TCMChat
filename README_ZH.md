@@ -9,8 +9,8 @@
 [![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese/blob/main/LICENSE) [![Python 3.10.12](https://img.shields.io/badge/python-3.10.12-blue.svg)](https://www.python.org/downloads/release/python-390/)
 
 ## 新闻
-[2024-11-1] 我们在Huggingface上完全开源了模型权重和训练数据集                 
-[2024-5-17] huggingface 开源模型权重
+[*2024-11-1*] 我们在Huggingface上完全开源了模型权重和训练数据集                 
+[*2024-5-17*] huggingface 开源模型权重
 
 
 ## 应用
