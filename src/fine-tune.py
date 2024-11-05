@@ -9,7 +9,6 @@ Version          :1.0
 code from baichuan2: https://github.com/baichuan-inc/Baichuan2
 '''
 
-
 import os
 import math
 import pathlib
@@ -22,7 +21,6 @@ from torch.utils.data import Dataset
 import transformers
 from transformers.training_args import TrainingArguments
 from loguru import logger
-
 
 @dataclass
 class ModelArguments:
@@ -116,7 +114,6 @@ class SupervisedDataset(Dataset):
 
     def __getitem__(self, idx) -> Dict[str, torch.Tensor]:
         return self.preprocessing(self.data[idx])
-
 
 def train():
     parser = transformers.HfArgumentParser(

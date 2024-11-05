@@ -12,7 +12,7 @@ from loguru import logger
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 
 
-data_dir = "result_data/tests/20240408/results/yian/syndrome_gemini-pro.json"
+data_dir = "your/file/path"
 
 data = json.load(open(data_dir, 'r', encoding='utf-8'))
 standard_list = []
