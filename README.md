@@ -1,7 +1,7 @@
 [**中文**](./README_ZH.md) | [**English**](./README.md)
 
 <p align="center" width="100%">
-<a href="https://github.com/daiyizheng/TCMChat" target="_blank"><img src="assets/logo.png" alt="TCMChat" style="width: 25%; min-width: 300px; display: block; margin: auto;"></a>
+<a href="https://github.com/ZJUFanLab/TCMChat" target="_blank"><img src="assets/logo.png" alt="TCMChat" style="width: 25%; min-width: 300px; display: block; margin: auto;"></a>
 </p>
 
 # TCMChat: A Generative Large Language Model for Traditional Chinese Medicine
@@ -161,3 +161,6 @@ python infers/baichuan_infer.py \
 python evaluation/admet_evaluate/acc_recall_f1.py
 
 ```
+## Acknowledgments
+1. Thanks to technical support from the High-Performance Computing Cluster of Zhejiang University Innovation Center of Yangtze River Delta.
+2. Thanks to Baichuan Intelligence for providing open-source large language models

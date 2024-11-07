@@ -1,7 +1,7 @@
 [**中文**](./README_ZH.md) | [**English**](./README.md)
 
 <p align="center" width="100%">
-<a href="https://github.com/daiyizheng/TCMChat" target="_blank"><img src="assets/logo.png" alt="TCMChat" style="width: 25%; min-width: 300px; display: block; margin: auto;"></a>
+<a href="https://github.com/ZJUFanLab/TCMChat" target="_blank"><img src="assets/logo.png" alt="TCMChat" style="width: 25%; min-width: 300px; display: block; margin: auto;"></a>
 </p>
 
 # TCMChat: Traditional Chinese Medicine Recommendation System based on Large Language Model
@@ -157,3 +157,8 @@ python infers/baichuan_infer.py \
 python evaluation/admet_evaluate/acc_recall_f1.py
 
 ```
+
+
+## 致谢
+1. 感激浙江大学智慧绿洲创新创新中心超级计算集群的技术支持
+2. 感谢百川智能提供开源的大语言模型
