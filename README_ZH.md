@@ -17,7 +17,7 @@
 
 ### 安装
 ```shell
-git clone https://github.com/daiyizheng/TCMChat
+git clone https://github.com/ZJUFanLab/TCMChat
 cd TCMChat
 ```
 

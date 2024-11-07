@@ -16,7 +16,7 @@
 
 ### Install
 ```shell
-git clone https://github.com/daiyizheng/TCMChat
+git clone https://github.com/ZJUFanLab/TCMChat
 cd TCMChat
 ```
 Create a conda environment
